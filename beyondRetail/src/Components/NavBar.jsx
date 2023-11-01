@@ -1,8 +1,10 @@
 import React from "react";
-
 import SearchIcon from "@mui/icons-material/Search";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutlined";
+
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
@@ -11,23 +13,23 @@ const NavBar = () => {
         <div>
           Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
         </div>
-        <button className="pl-1 hover:underline font-bold">ShopNow</button>
+        <button className="pl-1 hover:underline font-bold">
+          ShopNow <ArrowForwardIosOutlinedIcon className="p-1" />
+        </button>
       </div>
       <div className="flex justify-between px-navbarPadX py-navbarPadY">
         <div>LOGO</div>
         <div>
-          <div className="flex justify-between">
+          <div className="flex justify-between gap-10">
             <Link>Home</Link>
             <Link>Contact</Link>
             <Link>About</Link>
             <Link>SignUp</Link>
           </div>
         </div>
-        <div className="flex">
-          <div>
-            <SearchIcon />
-          </div>
-          <div>
+        <div className="flex g-10">
+          <SearchIcon />
+          <div className="flex justify-between g-8">
             <FavoriteBorderIcon />
             <ShoppingCartOutlinedIcon />
           </div>
