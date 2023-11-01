@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
       <NavBar />
-      <footer />
+      <Footer />
     </>
   );
 };
