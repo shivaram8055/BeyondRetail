@@ -20,12 +20,12 @@ const NavBar = () => {
       <div className="flex justify-between px-navbarPadX py-navbarPadY">
         <div>LOGO</div>
         <div>
-          <div className="flex justify-between gap-10">
-            <Link>Home</Link>
-            <Link>Contact</Link>
-            <Link>About</Link>
-            <Link>SignUp</Link>
-          </div>
+          <nav className="flex justify-between gap-8">
+            <a href="">Home</a>
+            <a href="">Contact</a>
+            <a href="">About</a>
+            <a href="">SignUp</a>
+          </nav>
         </div>
         <div className="flex g-10">
           <SearchIcon />
