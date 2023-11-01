@@ -20,7 +20,10 @@ export default {
         '24px':'24px',
         '16px':'16px',
         '20px':'20px',
-      '7px':'7px'      }
+      '7px':'7px'      },
+      fontFamily:{
+        'abc':['Changa', 'sans-serif']
+      }
     },
   },
   plugins: [],
