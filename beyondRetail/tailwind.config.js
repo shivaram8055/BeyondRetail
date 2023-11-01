@@ -13,13 +13,14 @@ export default {
         'searchWidth':'243px',
       },padding:{
         'navbarPadX':'135px',
-        'navbarPadY':'88px',
+        'navbarPadY':'40px',
         '190px':'190px',
         '48px':'48px',
         '148px':'148px',
         '24px':'24px',
         '16px':'16px',
         '20px':'20px',
+        '40px':'40px',
       '7px':'7px'      },
       fontFamily:{
         'abc':['Changa', 'sans-serif']
