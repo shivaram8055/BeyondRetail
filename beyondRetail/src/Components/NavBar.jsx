@@ -1,4 +1,7 @@
 import React from "react";
+import SearchIcon from "@mui/icons-material/Search";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 
 const NavBar = () => {
   return (
@@ -35,7 +38,7 @@ const NavBar = () => {
         <div className="flex pl-24px">
           <ul className="flex">
             <li className="pr-16px">
-              <FavoriteBorderOutlinedIcon />
+              <FavoriteBorderIcon />
             </li>
             <li>
               <ShoppingCartOutlinedIcon />
