@@ -5,7 +5,23 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      height:{
+        'searchHeight':'24px',
+      },
+      width:{
+        'searchWidth':'243px',
+      },padding:{
+        'navbarPadX':'135px',
+        'navbarPadY':'88px',
+        '190px':'190px',
+        '48px':'48px',
+        '148px':'148px',
+        '24px':'24px',
+        '16px':'16px',
+        '20px':'20px',
+      '7px':'7px'      }
+    },
   },
   plugins: [],
 }
