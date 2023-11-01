@@ -1,5 +1,7 @@
 import React from "react";
 import SearchIcon from "@mui/icons-material/Search";
+import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import FavoriteBorderOutlinedIcon from "@mui/icons-material/FavoriteBorderOutlined";
 
 const NavBar = () => {
   return (
@@ -34,8 +36,14 @@ const NavBar = () => {
           What are you looking for?{<SearchIcon />}
         </div>
         <div className="flex pl-24px">
-          <img className="pr-16px" src="" alt="wish" />
-          <img src="" alt="cart" />
+          <ul className="flex">
+            <li className="pr-16px">
+              <FavoriteBorderOutlinedIcon />
+            </li>
+            <li>
+              <ShoppingCartOutlinedIcon />
+            </li>
+          </ul>
         </div>
       </div>
     </div>
