@@ -3,7 +3,6 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-<<<<<<< HEAD
       height:{
         'searchHeight':'24px','450px':'450px',
         '500px':'500px',
@@ -49,7 +48,6 @@ export default {
         'laptops':"url('./assets/watches.jpeg')",
         'buds':"url('./assets/buds.avif')",
       }
-=======
       height: {
         searchHeight: "24px",
       },
@@ -71,7 +69,6 @@ export default {
       fontFamily: {
         abc: ["Changa", "sans-serif"],
       },
->>>>>>> 1b791ef88516428a6f8ead4dae8bb141adf5b5ff
     },
   },
   plugins: [],
