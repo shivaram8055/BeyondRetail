@@ -1,12 +1,19 @@
 import React from "react";
 import NavBar from "./Components/NavBar";
-import Footer from "./Components/footer/Footer";
-import Categories from "./Components/Categories";
+import Footer from "./Components/Footer";
 const App = () => {
   return (
     <>
-      <NavBar />
-      <Footer />
+      <ProductComp
+        productImg={airpods}
+        mrp={"₹24900.00"}
+        title={
+          "AirPods Pro (2nd generation) with MagSafe Charging Case (USB‑C)"
+        }
+      />
+
+      {/* <NavBar />
+      <Footer /> */}
     </>
   );
 };

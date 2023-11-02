@@ -19,10 +19,6 @@ export default {
         "16px": "16px",
         "20px": "20px",
         "40px": "40px",
-        "135px": "135px",
-        "1415px": "1415px",
-        "313px": "313px",
-        "1170px": "1170px",
         "7px": "7px",
       },
       fontFamily: {
