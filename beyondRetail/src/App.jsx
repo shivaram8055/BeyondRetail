@@ -1,11 +1,12 @@
 import React from "react";
 import NavBar from "./Components/NavBar";
-import Footer from "./Components/Footer";
-import airpods from "./assets/homepod.jpeg";
 import ProductComp from "./Components/ProductComp";
+<<<<<<< HEAD
 import NewArrivals from "./Components/NewArrivals";
 import DeliveryDetails from "./Components/DeliveryDetails";
 
+=======
+>>>>>>> 1b791ef88516428a6f8ead4dae8bb141adf5b5ff
 const App = () => {
   return (
     <>

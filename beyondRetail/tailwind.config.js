@@ -1,11 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+<<<<<<< HEAD
       height:{
         'searchHeight':'24px','450px':'450px',
         '500px':'500px',
@@ -51,8 +49,30 @@ export default {
         'laptops':"url('./assets/watches.jpeg')",
         'buds':"url('./assets/buds.avif')",
       }
+=======
+      height: {
+        searchHeight: "24px",
+      },
+      width: {
+        searchWidth: "243px",
+      },
+      padding: {
+        navbarPadX: "135px",
+        navbarPadY: "18px",
+        "190px": "190px",
+        "48px": "48px",
+        "148px": "148px",
+        "24px": "24px",
+        "16px": "16px",
+        "20px": "20px",
+        "40px": "40px",
+        "7px": "7px",
+      },
+      fontFamily: {
+        abc: ["Changa", "sans-serif"],
+      },
+>>>>>>> 1b791ef88516428a6f8ead4dae8bb141adf5b5ff
     },
   },
   plugins: [],
-}
-
+};
