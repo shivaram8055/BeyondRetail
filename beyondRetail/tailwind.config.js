@@ -24,6 +24,9 @@ export default {
       '7px':'7px'      },
       fontFamily:{
         'abc':['Changa', 'sans-serif']
+      },
+      fontSize:{
+        '10px':'10px'
       }
     },
   },
