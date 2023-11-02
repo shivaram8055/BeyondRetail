@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./Components/NavBar";
-import Footer from "./Components/Footer";
+import Footer from "./Components/footer/Footer";
+import Categories from "./Components/Categories";
 const App = () => {
   return (
     <>

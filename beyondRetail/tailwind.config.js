@@ -1,32 +1,34 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-      height:{
-        'searchHeight':'24px',
+      height: {
+        searchHeight: "24px",
       },
-      width:{
-        'searchWidth':'243px',
-      },padding:{
-        'navbarPadX':'135px',
-        'navbarPadY':'18px',
-        '190px':'190px',
-        '48px':'48px',
-        '148px':'148px',
-        '24px':'24px',
-        '16px':'16px',
-        '20px':'20px',
-        '40px':'40px',
-      '7px':'7px'      },
-      fontFamily:{
-        'abc':['Changa', 'sans-serif']
-      }
+      width: {
+        searchWidth: "243px",
+      },
+      padding: {
+        navbarPadX: "135px",
+        navbarPadY: "18px",
+        "190px": "190px",
+        "48px": "48px",
+        "148px": "148px",
+        "24px": "24px",
+        "16px": "16px",
+        "20px": "20px",
+        "40px": "40px",
+        "135px": "135px",
+        "1415px": "1415px",
+        "313px": "313px",
+        "1170px": "1170px",
+        "7px": "7px",
+      },
+      fontFamily: {
+        abc: ["Changa", "sans-serif"],
+      },
     },
   },
   plugins: [],
-}
-
+};
