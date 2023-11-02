@@ -13,7 +13,7 @@ export default {
         'searchWidth':'243px',
       },padding:{
         'navbarPadX':'135px',
-        'navbarPadY':'40px',
+        'navbarPadY':'18px',
         '190px':'190px',
         '48px':'48px',
         '148px':'148px',
