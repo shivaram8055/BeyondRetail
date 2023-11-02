@@ -17,7 +17,7 @@ const NavBar = () => {
         <button className="pl-1 hover:underline font-bold">ShopNow</button>
       </div>
       <div className="flex justify-between px-5 py-4 md:px-navbarPadX py-navbarPadY boder-bottom overflow-hidden border-b-2 md:pt-16">
-        <div className="font-bold text-sm md:text-xl">BEYONDRETAIL</div>
+        <div className="font-bold text-md md:text-xl">BEYONDRETAIL</div>
         <div>
           <nav className="flex justify-between md:gap-8 hidden md:flex">
             <a href="">Home</a>
@@ -34,10 +34,10 @@ const NavBar = () => {
             <FavoriteBorderIcon />
           </div>
           <div>
-            <AccountCircleOutlinedIcon />
-          </div>
-          <div>
             <ShoppingCartOutlinedIcon />
+          </div>
+          <div className="md:hidden">
+            <AccountCircleOutlinedIcon />
           </div>
         </div>
       </div>
