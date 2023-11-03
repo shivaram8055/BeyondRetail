@@ -7,19 +7,18 @@ import h from "../assets/h.svg";
 import g from "../assets/g.svg";
 const Categories = () => {
   return (
-    <div className=" flex h-313px py-10 gap-12 flex-col">
-      <div className="flex flex-col pl-16">
+    <div className=" flex h-313px py-10 gap-12 md:px-navbarPadX flex-col">
+      <div className="flex flex-col">
         <div className="flex gap-4">
           <div
             style={{
-              width: 20,
-              height: 30,
-              background: "#115e59",
-              borderRadius: 4,
+              width: "8px",
+              height: "28px",
+              background: "#5eead3",
             }}
           />
           <div
-            className="text-teal-800 text-lg font-extrabold"
+            className="text-teal-900 text-base"
             style={{
               height: 40,
             }}
@@ -27,10 +26,10 @@ const Categories = () => {
             Categories
           </div>
         </div>
-        <div className="font-extrabold text-4xl">Browse By Category</div>
+        <div className="text-2xl">Browse By Category</div>
       </div>
       <div className="flex justify-evenly">
-        <div className=" transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-teal-800 duration-300 relative rounded box-border w-[170px] h-[145px] overflow-hidden shrink-0 text-left text-base text-button font-title-16px-regular border-[1px] border-solid border-gray-300">
+        <div className=" transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-101 hover:bg-teal-300 duration-300 relative rounded box-border w-[170px] h-[145px] overflow-hidden shrink-0 text-left text-base text-button font-title-16px-regular border-[1px] border-solid border-gray-300">
           <div className="flex pt-4 pl-14">
             {" "}
             <a href="#">
@@ -41,7 +40,7 @@ const Categories = () => {
             Phones
           </div>
         </div>
-        <div className="transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-teal-800 duration-300 relative rounded box-border w-[170px] h-[145px] overflow-hidden shrink-0 text-left text-base text-button font-title-16px-regular border-[1px] border-solid border-gray-300">
+        <div className="transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-101 hover:bg-teal-300 duration-300 relative rounded box-border w-[170px] h-[145px] overflow-hidden shrink-0 text-left text-base text-button font-title-16px-regular border-[1px] border-solid border-gray-300">
           <div className="flex pt-4 pl-14 ">
             {" "}
             <a href="#">
@@ -53,7 +52,7 @@ const Categories = () => {
           </div>
         </div>
 
-        <div className="transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-teal-800 duration-300 relative rounded box-border w-[170px] h-[145px] overflow-hidden shrink-0 text-left text-base text-button font-title-16px-regular border-[1px] border-solid border-gray-300">
+        <div className="transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-101 hover:bg-teal-300 duration-300 relative rounded box-border w-[170px] h-[145px] overflow-hidden shrink-0 text-left text-base text-button font-title-16px-regular border-[1px] border-solid border-gray-300">
           <div className="flex pt-4 pl-14">
             {" "}
             <a href="#">
@@ -64,7 +63,7 @@ const Categories = () => {
             Camera
           </div>
         </div>
-        <div className="transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-teal-800 duration-300 relative rounded box-border w-[170px] h-[145px] overflow-hidden shrink-0 text-left text-base text-button font-title-16px-regular border-[1px] border-solid border-gray-300">
+        <div className="transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-101 hover:bg-teal-300 duration-300 relative rounded box-border w-[170px] h-[145px] overflow-hidden shrink-0 text-left text-base text-button font-title-16px-regular border-[1px] border-solid border-gray-300">
           <div className="flex pt-4 pl-14">
             {" "}
             <a href="#">
@@ -75,7 +74,7 @@ const Categories = () => {
             HeadPhones
           </div>
         </div>
-        <div className="transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-110 hover:bg-teal-800 duration-300 relative rounded box-border w-[170px] h-[145px] overflow-hidden shrink-0 text-left text-base text-button font-title-16px-regular border-[1px] border-solid border-gray-300">
+        <div className="transition ease-in-out delay-150 bg-white hover:-translate-y-1 hover:scale-101 hover:bg-teal-300 duration-300 relative rounded box-border w-[170px] h-[145px] overflow-hidden shrink-0 text-left text-base text-button font-title-16px-regular border-[1px] border-solid border-gray-300">
           <div className="flex pt-4 pl-14">
             {" "}
             <a href="#">

@@ -35,7 +35,7 @@ const productData = [
 
 export default function App() {
   return (
-    <div className="md:px-navbarPadX md:py-10 px-4 py-4">
+    <div className="flex flex-col md:px-navbarPadX md:py-10 px-4 py-4 h-500px">
       <div className="flex flex-col md:gap-3 gap-3">
         <div className="flex items-center md:gap-2">
           <div className=" h-5 md:h-7 w-2 bg-teal-300"></div>
