@@ -3,7 +3,7 @@ import React from "react";
 const NewArrivals = () => {
   return (
     <div className="flex flex-col px-8 py-9 gap-4 md:px-navbarPadX ">
-      <div className="flex items-center gap-1">
+      <div className="flex items-center gap-2">
         <div className="bg-teal-400 h-4 w-1 md:h-6 md:w-2"></div>
         <div className="text-xs md:text-sm text-teal-700">Featured</div>
       </div>

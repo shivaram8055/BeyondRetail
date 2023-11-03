@@ -2,10 +2,7 @@ import React from "react";
 import SearchIcon from "@mui/icons-material/Search";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
-import ArrowForwardIosOutlinedIcon from "@mui/icons-material/ArrowForwardIosOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
-
-import { Link } from "react-router-dom";
 
 const NavBar = () => {
   return (
