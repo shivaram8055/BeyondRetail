@@ -3,7 +3,6 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
-<<<<<<< HEAD
       height:{
         'searchHeight':'24px','450px':'450px',
         '500px':'500px',
@@ -49,8 +48,6 @@ export default {
         'laptops':"url('./assets/watches.jpeg')",
         'buds':"url('./assets/buds.avif')",
       },
-=======
->>>>>>> 17a037bec2cd0a3ce93f0823e798618631422ba8
       height: {
         searchHeight: "24px",
         "450px": "450px",
@@ -87,11 +84,9 @@ export default {
       fontFamily: {
         abc: ["Changa", "sans-serif"],
       },
-<<<<<<< HEAD
       scale:{
         '101':'1.01',
-      }
-=======
+      },
       fontSize: {
         "10px": "10px",
         "8px": "8px",
@@ -125,7 +120,6 @@ export default {
       fontFamily: {
         abc: ["Changa", "sans-serif"],
       },
->>>>>>> 17a037bec2cd0a3ce93f0823e798618631422ba8
     },
   },
   plugins: [],
