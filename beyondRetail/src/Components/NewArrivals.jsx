@@ -3,7 +3,7 @@ import React from "react";
 const NewArrivals = () => {
   return (
     <div className="flex flex-col px-8 py-9 gap-4 md:px-navbarPadX ">
-      <div className="flex items-center gap-1">
+      <div className="flex items-center gap-2">
         <div className="bg-teal-400 h-4 w-1 md:h-6 md:w-2"></div>
         <div className="text-xs md:text-sm text-teal-700">Featured</div>
       </div>
@@ -34,7 +34,7 @@ const NewArrivals = () => {
                 Shop Now
               </a>
             </div>
-            <div className="bg-buds bg-cover bg-bottom md:w-342px md:h-292px h-40 w-full flex md:flex-col md:justify-end md:p-6 md:gap-1">
+            <div className="bg-buds bg-cover bg-bottom md:w-342px md:h-292px h-40 w-full flex md:flex-col md:justify-end md:p-6 md:gap-1 text-teal-900">
               <h1 className="text-base">Galaxy Watches</h1>
               <h3 className="text-xs">The new Galaxy Watch6-Classic</h3>
               <a href="#" className="text-sm underline">

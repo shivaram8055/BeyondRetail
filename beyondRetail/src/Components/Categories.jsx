@@ -9,7 +9,7 @@ const Categories = () => {
   return (
     <div className=" flex h-313px py-10 gap-12 md:px-navbarPadX flex-col">
       <div className="flex flex-col">
-        <div className="flex gap-4">
+        <div className="flex gap-2">
           <div
             style={{
               width: "8px",
