@@ -14,11 +14,11 @@ const Categories = () => {
             style={{
               width: "8px",
               height: "28px",
-              background: "#5eead3",
+              background: "#26A69A",
             }}
           />
           <div
-            className="text-teal-900 text-base"
+            className="text-teal-700 text-base"
             style={{
               height: 40,
             }}

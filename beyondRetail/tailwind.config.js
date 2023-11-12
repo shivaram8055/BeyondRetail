@@ -47,7 +47,10 @@ export default {
         's23series':"url('./assets/s23 series.webp')",
         'laptops':"url('./assets/watches.jpeg')",
         'buds':"url('./assets/buds.avif')",
-      },
+      },margin:{
+        'navbarMarX':'135px',
+        'navbarMarY':'18px',
+      }
       
     },
   },
