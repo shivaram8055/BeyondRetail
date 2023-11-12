@@ -51,7 +51,7 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div className="flex justify-around m-10 gap-4 flex-col md:flex-row">
+        <div className="flex justify-around my-10 gap-4 flex-col md:flex-row">
           {productData.map((product, index) => (
             <ProductComp
               key={index}

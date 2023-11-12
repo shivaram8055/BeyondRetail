@@ -12,9 +12,9 @@ const ProductComp = ({ title, price, productImage }) => {
   return (
     <>
       <div className="md:w-1/4 p-6 rounded-lg shadow-xl hover:shadow-2xl hover:ease-in-out flex flex-col gap-5 border items-center justify-center">
-        <div className="title text-xl line-clamp-2">{title}</div>
+        <div className="title text-lg line-clamp-2">{title}</div>
         <div className="flex flex-col items-center gap-4">
-          <img src={productImage} alt="" className="h-52" />
+          <img src={productImage} alt="" className="h-46" />
           <div className="colors flex gap-1">
             {colors.map((item, index) => {
               return (
@@ -28,7 +28,7 @@ const ProductComp = ({ title, price, productImage }) => {
           </div>
         </div>
         <div className="flex items-center justify-around">
-          <div className="price text-xs line-clamp-2">{price}</div>
+          <div className="price text-sm line-clamp-2">{price}</div>
           <div className="p-1 px-4 text-md bg-teal-400 rounded-full cursor-pointer  ">
             Buy
           </div>

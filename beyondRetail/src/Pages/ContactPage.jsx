@@ -12,8 +12,8 @@ const ContactPage = () => {
       <div className="text-sm px-navbarPadX pt-10 ">
         Home {<ChevronRightTwoToneIcon />} {location.pathname.slice(1)}
       </div>
-      <div className="px-navbarPadX flex justify-between p-10 gap-2">
-        <div className="details border shadow-sm">
+      <div className="px-navbarPadX flex justif-around p-10 gap-2">
+        <div className="details border shadow-sm flex flex-col justify-around">
           <div className="call-us p-8 flex flex-col gap-4">
             <div className="title flex gap-2 ">
               <div className="div">{<PhoneInTalkRoundedIcon />}</div>
