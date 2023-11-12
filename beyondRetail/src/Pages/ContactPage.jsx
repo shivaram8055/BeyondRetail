@@ -3,11 +3,15 @@ import NavBar from "../Components/NavBar";
 import Footer from "../Components/footer/Footer";
 import PhoneInTalkRoundedIcon from "@mui/icons-material/PhoneInTalkRounded";
 import MailOutlineTwoToneIcon from "@mui/icons-material/MailOutlineTwoTone";
+import ChevronRightTwoToneIcon from "@mui/icons-material/ChevronRightTwoTone";
 
 const ContactPage = () => {
   return (
     <div>
       <NavBar />
+      <div className="text-sm px-navbarPadX pt-10 ">
+        Home {<ChevronRightTwoToneIcon />} {location.pathname.slice(1)}
+      </div>
       <div className="px-navbarPadX flex justify-between p-10 gap-2">
         <div className="details border shadow-sm">
           <div className="call-us p-8 flex flex-col gap-4">

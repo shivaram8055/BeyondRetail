@@ -52,7 +52,7 @@ const NavBar = () => {
               About
             </Link>
             <Link
-              to="/Signup"
+              to="/SignUp"
               className={`hover:underline ${
                 location.pathname === "/SignUp" ? "text-teal-700 underline" : ""
               }`}
