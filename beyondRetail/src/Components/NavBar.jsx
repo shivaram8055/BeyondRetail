@@ -26,9 +26,9 @@ const NavBar = () => {
         <div>
           <nav className=" justify-between md:gap-8 hidden md:flex">
             <Link
-              to="/Home"
+              to={"/" || "/Home"}
               className={`hover:underline ${
-                location.pathname === "/Home" ? "text-teal-700 underline" : ""
+                location.pathname === "/" ? "text-teal-700 underline" : ""
               }`}
             >
               Home
