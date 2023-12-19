@@ -36,7 +36,7 @@ const NavBar = () => {
         <div>
           <nav className=" justify-between md:gap-8 hidden md:flex">
             <Link
-              to="home"
+              to={"/home" || ""}
               className={`hover:underline ${
                 isLinkActive("/home") ? "text-teal-700 underline" : ""
               }`}
