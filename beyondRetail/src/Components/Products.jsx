@@ -7,7 +7,7 @@ import mobileData from "../Data/mobile_data.json";
 const ProductPage = () => {
   return (
     <>
-      <div className="flex gap-6 flex-wrap">
+      <div className="flex gap-6 flex-wrap px-navbarPadX">
         {mobileData.map((item, index) => {
           return (
             <Item
