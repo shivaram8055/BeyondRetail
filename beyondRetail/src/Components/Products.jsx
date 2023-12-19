@@ -2,12 +2,12 @@ import React from "react";
 
 import Item from "./Item";
 
-import mobileData from "../Data/mobile_data.json";
+import mobileData from "../Data/earphones_data.json";
 
 const ProductPage = () => {
   return (
     <>
-      <div className="flex gap-6 flex-wrap px-navbarPadX">
+      <div className="flex flex-wrap px-navbarPadX">
         {mobileData.map((item, index) => {
           return (
             <Item

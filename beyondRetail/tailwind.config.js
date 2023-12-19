@@ -23,7 +23,7 @@ export default {
         '330px':'330px',
         '342px':'342px',
       },padding:{
-        'navbarPadX':'135px',
+        'navbarPadX':'125px',
         'navbarPadY':'18px',
         '190px':'190px',
         '48px':'48px',

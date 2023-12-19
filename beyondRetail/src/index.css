@@ -22,4 +22,13 @@
     transform: scale(1.1);
 }
 
-  
+
+/* home carousel */
+.swiper-button-next, .swiper-button-prev {
+  color: rgb(8, 205, 205); /* Change the color as needed */
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  color: rgb(2, 84, 84); /* Change the hover color as needed */
+}
+/*-------*/

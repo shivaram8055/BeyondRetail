@@ -9,6 +9,7 @@ import ProductPage from "./Components/Products";
 import SignUpPage from "./Pages/SignUpPage";
 
 import Footer from "./Components/footer/Footer";
+import Carousel from "./Components/HomeScreenCarousel/HomeCarousel";
 
 const App = () => {
   return (
@@ -26,6 +27,12 @@ const App = () => {
         </Routes>
         <Footer />
       </Router>
+
+      {/* <div className="min-h-screen w-screen flex justify-center items-center">
+        <div className="container mx-auto">
+          <Carousel />
+        </div>
+      </div> */}
     </>
   );
 };
