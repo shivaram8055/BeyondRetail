@@ -48,7 +48,7 @@ export default function App() {
           <div className="flex justify-between items-center">
             <div className="md:text-2xl text-base">Best Selling Products</div>
             <div className="md:text-sm text-xs bg-teal-300 p-1 md:p-2 rounded">
-              <Link to="home/products">View All</Link>
+              <Link to="/products">View All</Link>
             </div>
           </div>
         </div>
