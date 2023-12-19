@@ -1,5 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Changa:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.logoTitle{
+    font-family: 'Changa', sans-serif !important;
+}
+.opacity-0 {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+.product-item:hover{
+    color:teal;
+}
+.item-image:hover{
+    transform: scale(1.1);
+}
+
+  

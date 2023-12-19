@@ -6,7 +6,6 @@ import ChevronRightTwoToneIcon from "@mui/icons-material/ChevronRightTwoTone";
 const SignUpPage = () => {
   return (
     <div>
-      <NavBar />
       <div className="text-sm px-navbarPadX pt-10 ">
         Home {<ChevronRightTwoToneIcon />} {location.pathname.slice(1)}
       </div>

@@ -34,7 +34,8 @@ export default {
         '40px':'40px',
       '7px':'7px'      },
       fontFamily:{
-        'abc':['Changa', 'sans-serif']
+        'abc':['Changa', 'sans-serif'],
+        'poppins':['Poppins','sans-serif'],
       },
       fontSize:{
         '10px':'10px',
@@ -50,9 +51,14 @@ export default {
       },margin:{
         'navbarMarX':'135px',
         'navbarMarY':'18px',
-      }
+      },
+      gridTemplateRows: {
+        '[auto,auto,1fr]': 'auto auto 1fr',
+      },
       
     },
   },
-  plugins: [],
+  plugins: [
+    // require('@tailwindcss/aspect-ratio'),
+  ],
 };

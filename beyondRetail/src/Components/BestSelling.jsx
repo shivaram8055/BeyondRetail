@@ -7,6 +7,7 @@ import samsungs23ultra from "../assets/s23ultra.avif";
 import buds from "../assets/buds.avif";
 import ProductComp from "./ProductComp";
 import iphone15promax from "../Images/iphone15promax.jpeg";
+import { Link } from "react-router-dom";
 const productData = [
   {
     productImg: homepod,
@@ -47,7 +48,7 @@ export default function App() {
           <div className="flex justify-between items-center">
             <div className="md:text-2xl text-base">Best Selling Products</div>
             <div className="md:text-sm text-xs bg-teal-300 p-1 md:p-2 rounded">
-              View All
+              <Link to="home/products">View All</Link>
             </div>
           </div>
         </div>

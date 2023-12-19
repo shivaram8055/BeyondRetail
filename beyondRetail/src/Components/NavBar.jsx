@@ -3,15 +3,23 @@ import SearchIcon from "@mui/icons-material/Search";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { teal } from "@mui/material/colors";
 
 const NavBar = () => {
+  const location = useLocation();
   const [isSearchVisible, setIsSearchVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+
+  const timeout = setTimeout(() => {
+    setIsVisible(false);
+  }, 5000);
 
   const handleSearchClick = () => {
     setIsSearchVisible(true);
   };
+
+  const isLinkActive = (path) => location.pathname === path;
 
   return (
     <>
@@ -22,43 +30,48 @@ const NavBar = () => {
         <button className="pl-1 hover:underline font-bold">ShopNow</button>
       </div>
       <div className="flex justify-between px-5 md:px-navbarPadX py-navbarPadY border-b-2 md:pt-16">
-        <div className="font-bold text-md md:text-2xl">BEYONDRETAIL</div>
+        <div className="logoTitle font-bold text-md md:text-2xl">
+          BEYONDRETAIL
+        </div>
         <div>
           <nav className=" justify-between md:gap-8 hidden md:flex">
             <Link
-              to={"/" || "/Home"}
+              to="home"
               className={`hover:underline ${
-                location.pathname === "/" ? "text-teal-700 underline" : ""
+                isLinkActive("/home") ? "text-teal-700 underline" : ""
               }`}
             >
               Home
             </Link>
             <Link
-              to="/Contact"
+              to="contact"
               className={`hover:underline ${
-                location.pathname === "/Contact"
-                  ? "text-teal-700 underline"
-                  : ""
+                isLinkActive("/contact") ? "text-teal-700 underline" : ""
               }`}
             >
               Contact
             </Link>
             <Link
-              to="/About"
+              to="about"
               className={`hover:underline ${
-                location.pathname === "/About" ? "text-teal-700 underline" : ""
+                isLinkActive("/about") ? "text-teal-700 underline" : ""
               }`}
             >
               About
             </Link>
             <Link
-              to="/SignUp"
+              to="signin"
               className={`hover:underline ${
-                location.pathname === "/SignUp" ? "text-teal-700 underline" : ""
+                isLinkActive("/signin") ? "text-teal-700 underline" : ""
               }`}
             >
-              SignUp
+              SignIn
             </Link>
+
+            {/* <a href="">Home</a>
+            <a href="">Products</a>
+            <a href="">AboutUs</a>
+            <a href="">SignUp</a> */}
           </nav>
         </div>
         <div className="flex gap-4 md:gap-6 items-center">

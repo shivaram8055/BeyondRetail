@@ -1,6 +1,5 @@
 import React from "react";
-import NavBar from "../Components/NavBar";
-import Footer from "../Components/footer/Footer";
+
 import PhoneInTalkRoundedIcon from "@mui/icons-material/PhoneInTalkRounded";
 import MailOutlineTwoToneIcon from "@mui/icons-material/MailOutlineTwoTone";
 import ChevronRightTwoToneIcon from "@mui/icons-material/ChevronRightTwoTone";
@@ -8,7 +7,6 @@ import ChevronRightTwoToneIcon from "@mui/icons-material/ChevronRightTwoTone";
 const ContactPage = () => {
   return (
     <div>
-      <NavBar />
       <div className="text-sm px-navbarPadX pt-10 ">
         Home {<ChevronRightTwoToneIcon />} {location.pathname.slice(1)}
       </div>
@@ -67,7 +65,6 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };
