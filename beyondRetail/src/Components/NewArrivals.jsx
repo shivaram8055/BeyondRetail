@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const NewArrivals = () => {
   return (
@@ -13,33 +14,33 @@ const NewArrivals = () => {
           {" "}
           <h1 className="text-base">Galaxy Watches</h1>
           <h3 className="text-xs">The new Galaxy Watch6-Classic</h3>
-          <a href="#" className="text-sm underline">
+          <Link to="/products" className="text-sm underline">
             Shop Now
-          </a>
+          </Link>
         </div>
         <div className="flex md:gap-4 gap-2  md:flex-col flex-col">
           <div className="md:h-292px md:w-700px h-40 w-full bg-s23series bg-cover flex md:flex-col md:justify-end md:p-6 md:gap-1 flex-col p-4">
             {" "}
             <h1 className="text-base">Galaxy Watches</h1>
             <h3 className="text-xs">The new Galaxy Watch6-Classic</h3>
-            <a href="#" className="text-sm underline">
+            <Link to="/products" className="text-sm underline">
               Shop Now
-            </a>
+            </Link>
           </div>
           <div className="flex flex-col md:gap-4 gap-2 md:flex-row">
             <div className="bg-laptops bg-cover bg-right md:w-342px md:h-292px h-40 w-full flex flex-col md:justify-end md:p-6 md:gap-1">
               <h1 className="text-base">Galaxy Watches</h1>
               <h3 className="text-xs">The new Galaxy Watch6-Classic</h3>
-              <a href="#" className="text-sm underline">
+              <Link to="/products" className="text-sm underline">
                 Shop Now
-              </a>
+              </Link>
             </div>
-            <div className="bg-buds bg-cover bg-bottom md:w-342px md:h-292px h-40 w-full flex md:flex-col md:justify-end md:p-6 md:gap-1 text-teal-900">
+            <div className="bg-buds bg-cover bg-bottom md:w-342px md:h-292px h-40 w-full flex md:flex-col md:justify-end md:p-6 md:gap-1">
               <h1 className="text-base">Galaxy Watches</h1>
               <h3 className="text-xs">The new Galaxy Watch6-Classic</h3>
-              <a href="#" className="text-sm underline">
+              <Link to="/products" className="text-sm underline">
                 Shop Now
-              </a>
+              </Link>
             </div>
           </div>
         </div>

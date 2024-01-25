@@ -7,6 +7,9 @@ const title = "iPhone 15 Pro Max";
 const colors = ["#9BB5CE", "#5C5B57", "#F9E5C9", "#F5F5F0", "#505F4E"];
 const price =
   "From ₹21483.00/mo. with instant savings§§ and No Cost EMI§ or ₹134900.00‡";
+const specifications = [
+  "Galaxy S23 Ultra's striking symmetrical design returns with one major difference, recycled and eco-conscious materials. From the metal frame to the glass finish, it's polished with fresh new colors inspired by nature.",
+];
 
 const ProductComp = ({ title, price, productImage }) => {
   return (

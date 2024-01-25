@@ -27,7 +27,9 @@ const NavBar = () => {
         <div>
           Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%!
         </div>
-        <button className="pl-1 hover:underline font-bold">ShopNow</button>
+        <Link to="products">
+          <button className="pl-1 hover:underline font-bold">ShopNow</button>
+        </Link>
       </div>
       <div className="flex justify-between px-5 md:px-navbarPadX py-navbarPadY border-b-2 md:pt-16">
         <div className="logoTitle font-bold text-md md:text-2xl">
@@ -52,12 +54,12 @@ const NavBar = () => {
               Contact
             </Link>
             <Link
-              to="about"
+              to="products"
               className={`hover:underline ${
-                isLinkActive("/about") ? "text-teal-700 underline" : ""
+                isLinkActive("products") ? "text-teal-700 underline" : ""
               }`}
             >
-              About
+              Products
             </Link>
             <Link
               to="signin"
@@ -90,9 +92,12 @@ const NavBar = () => {
           <div className="hidden md:block">
             <FavoriteBorderIcon />
           </div>
-          <div>
-            <ShoppingCartOutlinedIcon />
-          </div>
+          <Link to="/checkout">
+            <div>
+              <ShoppingCartOutlinedIcon />
+            </div>
+          </Link>
+
           <div className="md:hidden">
             <AccountCircleOutlinedIcon />
           </div>

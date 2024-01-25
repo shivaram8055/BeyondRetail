@@ -36,20 +36,20 @@ const BestSelling = () => {
           </div>
           <div className="flex justify-between items-center">
             <div className="md:text-2xl text-base">Best Selling Products</div>
-            <div className="md:text-sm text-xs bg-teal-300 p-1 md:p-2 rounded">
+            <div className="md:text-sm text-xs  bg-teal-300 text-teal-900 hover:text-teal-50 hover:bg-teal-400 p-1 md:p-2 rounded">
               <Link to="/products">View All</Link>
             </div>
           </div>
         </div>
-        <div className="flex justify-around my-10 flex-col md:flex-row">
-          {/* {gammingData.map((product, index) => (
+        <div className="flex justify-around my-10 flex-col md:flex-row flex-wrap-reverse">
+          {gammingData.map((product, index) => (
             <Item
               title={product.title}
               price={product.price}
               itemImg={product.itemImg}
             />
-          ))} */}
-          <HomeCarousel />
+          ))}
+          {/* <HomeCarousel /> */}
         </div>
       </div>
     </div>
