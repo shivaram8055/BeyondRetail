@@ -1,33 +1,25 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import KeyboardVoiceOutlinedIcon from "@mui/icons-material/KeyboardVoiceOutlined";
-import SpeechAnimation from "../assets/Animation/SpeechAnimation.json";
 import Lottie from "lottie-react";
+import SpeechAnimation from "../assets/Animation/SpeechAnimation.json";
 
 const SpeechAssBtn = () => {
-  const [isBoxVisible, setIsBoxVisible] = useState(false);
-  const [userInput, setUserInput] = useState("");
-  const [chatHistory, setChatHistory] = useState([]);
+  const [isAnimationVisible, setIsAnimationVisible] = useState(false);
+  const [listeningText, setListeningText] = useState(
+    "Press the button to start listening"
+  );
+
+  useEffect(() => {
+    // You can update this logic based on the actual result received from the backend
+    if (isAnimationVisible) {
+      setListeningText("I am listening...");
+    } else {
+      setListeningText("Press the button to start listening");
+    }
+  }, [isAnimationVisible]);
 
   const handleButtonClick = () => {
-    setIsBoxVisible(!isBoxVisible);
-
-    // Set the default AI message when the button is clicked
-    setChatHistory(["AI: Hi, how can I assist you today?"]);
-  };
-
-  const handleInputChange = (event) => {
-    setUserInput(event.target.value);
-  };
-
-  const handleSubmit = () => {
-    // Add the user's input to the chat history
-    setChatHistory([...chatHistory, `User: ${userInput}`]);
-
-    // Handle the interaction with the user input as needed
-    console.log("User input:", userInput);
-
-    // Clear the user input
-    setUserInput("");
+    setIsAnimationVisible(!isAnimationVisible);
   };
 
   return (
@@ -37,7 +29,7 @@ const SpeechAssBtn = () => {
         style={styles.speechAssBtn}
         onClick={handleButtonClick}
       >
-        {!isBoxVisible ? (
+        {!isAnimationVisible ? (
           <KeyboardVoiceOutlinedIcon style={{ fontSize: "2.2rem" }} />
         ) : (
           <Lottie
@@ -47,30 +39,7 @@ const SpeechAssBtn = () => {
           />
         )}
       </div>
-      {isBoxVisible && (
-        <div className="fixed bottom-32 right-16 bg-white border border-gray-300 rounded-md p-4 z-50">
-          {/* Display chat history */}
-          {chatHistory.map((message, index) => (
-            <div key={index} className="mb-2 text-gray-500">
-              {message}
-            </div>
-          ))}
-          {/* Input box for user input */}
-          <input
-            type="text"
-            placeholder="Ask your question here..."
-            className="w-full p-2 border rounded-md mb-4"
-            value={userInput}
-            onChange={handleInputChange}
-          />
-          <button
-            className="bg-teal-400 text-white px-4 py-2 rounded-md hover:bg-teal-500 hover:color:white"
-            onClick={handleSubmit}
-          >
-            Submit
-          </button>
-        </div>
-      )}
+      <p className="text-gray-500 mt-2">{listeningText}</p>
     </div>
   );
 };
