@@ -41,7 +41,7 @@ const BestSelling = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-around my-10 flex-col md:flex-row flex-wrap-reverse">
+        <div className="flex justify-around my-10 flex-col md:flex-row ">
           {gammingData.map((product, index) => (
             <Item
               title={product.title}

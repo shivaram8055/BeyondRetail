@@ -11,7 +11,12 @@ def speech_recognition():
         recognizer = sr.Recognizer()
         with sr.Microphone() as source:
             print("Listening...")
-            audio = recognizer.listen(source, timeout=5)  # Adjust the timeout value as needed
+            
+            # Set a timeout to stop listening if there is a pause in speech
+            audio = recognizer.listen(source, timeout=10)  # Adjust the timeout value as needed
+            
+            print("Processing...")
+            
             answer = recognizer.recognize_google(audio)
 
             if answer:

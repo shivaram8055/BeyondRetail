@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import KeyboardVoiceOutlinedIcon from "@mui/icons-material/KeyboardVoiceOutlined";
 import Lottie from "lottie-react";
 import SpeechAnimation from "../assets/Animation/SpeechAnimation.json";
+import WitAiComponent from "./wit";
 
 const SpeechAssBtn = () => {
   const [isAnimationVisible, setIsAnimationVisible] = useState(false);
@@ -51,6 +52,7 @@ const SpeechAssBtn = () => {
   };
 
   return (
+    <>
     <div style={{ position: "relative" }}>
       <div
         className={`rounded-full sticky p-2 shadow-lg bg-teal-400 hover:bg-teal-500`}
@@ -70,13 +72,17 @@ const SpeechAssBtn = () => {
       <p className="text-gray-500 mt-2">{listeningText}</p>
 
       {/* Popup to display results */}
-      {isPopupVisible && (
-        <div className="popup" style={styles.popup}>
+      {isPopupVisible && isAnimationVisible&& (
+        <div className="popup rounded-lg" style={styles.popup}>
           <span className="close" onClick={closePopup}>&times;</span>
           <p>{result}</p>
         </div>
       )}
     </div>
+    <div>
+      <WitAiComponent query={result}/>
+    </div>
+    </>
   );
 };
 
@@ -87,14 +93,17 @@ const styles = {
     right: "3rem",
   },
   popup: {
-    position: "absolute",
-    top: 0,
-    right: "3.5rem", // Adjust this value based on your design
-    backgroundColor: "#f9f9f9",
+    position: "fixed",
+    bottom: "3rem",
+    right: "6.5rem", // Adjust this value based on your design
+    backgroundColor: "#fff",
     border: "1px solid #ddd",
     padding: "10px",
     zIndex: 1,
     boxShadow: "0 0 10px rgba(0, 0, 0, 0.2)",
+    width: "10rem",
+    opacity:1,
+    transition: "opacity 0.3s ease-in-out", // Add transition property
   },
 };
 
