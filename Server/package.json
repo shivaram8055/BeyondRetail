@@ -1,0 +1,17 @@
+{
+    "name": "flask-on-glitch",
+    "version": "1.0.0",
+    "description": "Flask app running on Glitch",
+    "main": "server.js",
+    "scripts": {
+      "start": "sh start.sh",
+      "install": "pip install -r requirements.txt"
+    },
+    "engines": {
+      "node": "14.x",
+      "npm": "6.x"
+    },
+    "dependencies": {},
+    "devDependencies": {}
+  }
+  
