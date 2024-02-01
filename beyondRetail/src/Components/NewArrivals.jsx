@@ -9,7 +9,7 @@ const NewArrivals = () => {
         <div className="text-xs md:text-sm text-teal-700">Featured</div>
       </div>
       <div className="md:text-2xl">New Arrivals</div>
-      <div className="flex md:gap-4 gap-2 flex-col md:flex-row text-slate-200">
+      <div className="flex md:gap-4 gap-2 flex-col md:flex-row text-slate-200 w-fit">
         <div className="h-40 w-full md:h-600px md:w-500px bg-phone flex md:flex-col md:justify-end md:p-6 md:gap-1 flex-col bg-cover p-4">
           {" "}
           <h1 className="text-base">Galaxy Watches</h1>

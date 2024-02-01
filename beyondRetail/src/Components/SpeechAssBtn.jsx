@@ -2,25 +2,38 @@ import React, { useState, useEffect } from "react";
 import KeyboardVoiceOutlinedIcon from "@mui/icons-material/KeyboardVoiceOutlined";
 import Lottie from "lottie-react";
 import SpeechAnimation from "../assets/Animation/SpeechAnimation.json";
-import WitAiComponent from "./wit";
+import { addToCart } from "../Redux/CartSlice";
+import { useDispatch } from 'react-redux'
+
 
 const SpeechAssBtn = () => {
   const [isAnimationVisible, setIsAnimationVisible] = useState(false);
-  const [listeningText, setListeningText] = useState("Press the button to start listening");
+  const [listeningText, setListeningText] = useState(
+    "Press the button to start listening"
+  );
   const [result, setResult] = useState("");
   const [isPopupVisible, setIsPopupVisible] = useState(false);
 
+  const dispatch = useDispatch();
+
   const handleButtonClick = async () => {
+    const title = "APPLE iPhone 14 Plus"
+    const price = "\u20b969,990"
+    const itemImg = "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/v/0/t/-original-imaghxa5rgcv5enm.jpeg?q=70"
     try {
       setIsAnimationVisible(!isAnimationVisible);
 
-      const response = await fetch("http://localhost:5000/speech-recognition", {
+      const response = await fetch("http://localhost:5000/process_voice", {
         method: "POST",
       });
 
       if (response.ok) {
         const data = await response.json();
-        setResult(data.answer);
+        setResult(data["user_input"]);
+        console.log(data);
+
+        // Check the intent and dispatch addToCart if it's 'orderProduct'
+
 
         // Show the popup
         setIsPopupVisible(true);
@@ -30,6 +43,15 @@ const SpeechAssBtn = () => {
           setIsAnimationVisible(false);
           setListeningText("Press the button to start listening");
         }, 5000);
+
+
+
+        if (data["intent"] === "orderProduct") {
+
+
+          dispatch(addToCart({ title, price, itemImg }));
+        }
+
       } else {
         console.error("Error in Speech Recognition:", response.statusText);
       }
@@ -53,35 +75,32 @@ const SpeechAssBtn = () => {
 
   return (
     <>
-    <div style={{ position: "relative" }}>
-      <div
-        className={`rounded-full sticky p-2 shadow-lg bg-teal-400 hover:bg-teal-500`}
-        style={styles.speechAssBtn}
-        onClick={handleButtonClick}
-      >
-        {!isAnimationVisible ? (
-          <KeyboardVoiceOutlinedIcon style={{ fontSize: "2.2rem" }} />
-        ) : (
-          <Lottie
-            animationData={SpeechAnimation}
-            speed={0.5}
-            style={{ height: "2.5rem" }}
-          />
+      <div style={{ position: "relative" }}>
+        <div
+          className={`rounded-full sticky p-2 shadow-lg bg-teal-400 hover:bg-teal-500`}
+          style={styles.speechAssBtn}
+          onClick={handleButtonClick}
+        >
+          {!isAnimationVisible ? (
+            <KeyboardVoiceOutlinedIcon style={{ fontSize: "2.2rem" }} />
+          ) : (
+            <Lottie
+              animationData={SpeechAnimation}
+              speed={0.5}
+              style={{ height: "2.5rem" }}
+            />
+          )}
+        </div>
+        <p className="text-gray-500 mt-2">{listeningText}</p>
+
+        {/* Popup to display results */}
+        {isPopupVisible && isAnimationVisible && (
+          <div className="popup rounded-lg" style={styles.popup}>
+            <span className="close" onClick={closePopup}>&times;</span>
+            <p>{result}</p>
+          </div>
         )}
       </div>
-      <p className="text-gray-500 mt-2">{listeningText}</p>
-
-      {/* Popup to display results */}
-      {isPopupVisible && isAnimationVisible&& (
-        <div className="popup rounded-lg" style={styles.popup}>
-          <span className="close" onClick={closePopup}>&times;</span>
-          <p>{result}</p>
-        </div>
-      )}
-    </div>
-    <div>
-      <WitAiComponent query={result}/>
-    </div>
     </>
   );
 };
@@ -102,7 +121,7 @@ const styles = {
     zIndex: 1,
     boxShadow: "0 0 10px rgba(0, 0, 0, 0.2)",
     width: "10rem",
-    opacity:1,
+    opacity: 1,
     transition: "opacity 0.3s ease-in-out", // Add transition property
   },
 };

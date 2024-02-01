@@ -14,11 +14,11 @@ const ProductDetails = ({ title, price, itemImg, specifications, onClose }) => {
     <>
       {/* Backdrop to cover the entire screen when product details are visible */}
       <div
-        className="fixed top-0 left-0 w-fit h-fit bg-white z-50"
+        className="fixed top-0 left-0 w-fit h-screen bg-white z-50 m-96"
         onClick={handleClose}
       ></div>
       {/* Product details */}
-      <div className="flex justify-around p-10 m-10 h-fit w-5/6 items-center rounded-xl bg-white border relative">
+      <div className="flex justify-around p-10 mx-80 h-fit w-full items-center rounded-xl bg-white border relative">
         <button
           className="absolute top-4 right-4 text-gray-500 text-2xl cursor-pointer"
           onClick={handleClose}

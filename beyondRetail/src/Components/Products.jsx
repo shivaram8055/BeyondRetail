@@ -36,7 +36,7 @@ const ProductPage = () => {
 
   return (
     <>
-      <h1 className="px-36 text-xl font-bold py-6">Products Available:</h1>
+      <h1 className="px-navbarPadX text-xl font-bold py-6">Products Available:</h1>
       <div className="flex justify-center my-4">
         {categories.map((category) => (
           <button
@@ -53,12 +53,14 @@ const ProductPage = () => {
         ))}
       </div>
 
-      <div className="flex flex-wrap px-navbarPadX">
+      <div className="flex flex-wrap px-navbarPadX items-center">
         {products.map((item, index) => (
+          
           <Item
             title={item.title}
             itemImg={item.itemImg}
             price={item.price}
+            specifications={item.specifications}
             key={index}
           />
         ))}

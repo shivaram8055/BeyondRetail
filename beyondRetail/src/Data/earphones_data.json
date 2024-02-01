@@ -1,27 +1,60 @@
 [
-    {
-      "title": "Samsung Galaxy Buds2 Pro, Bluetooth Truly Wireless in Ear Earbuds with Noise Cancellation (Bora Purple, with Mic)",
-      "price": "\u20b914,990",
-      "itemImg": "https://m.media-amazon.com/images/I/61KVX-MbIUL._SX679_.jpg"
-    },
-    {
-      "title": "Samsung Galaxy Buds 2 | Active Noise Cancellation, Auto Switch Feature, Up to 20hrs Battery Life, (White)",
-      "price": "\u20b96,487",
-      "itemImg": "https://m.media-amazon.com/images/I/51kID6SKhvL._SX679_.jpg"
-    },
-    {
-      "title": "Apple AirPods Pro (2nd Generation)",
-      "price": "\u20b918,999",
-      "itemImg": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SX679_.jpg"
-    },
-    {
-      "title": "Google Pixel Buds Pro - In-Ear Noise Canceling Earbuds with Mic - Up to 31 Hour Battery Life with Charging Case - Bluetooth Headphones - Compatible with Wireless Charging - Fog",
-      "price": "\u20b928,106",
-      "itemImg": "https://m.media-amazon.com/images/I/61FwbxlXSfL._SX679_.jpg"
-    },
-    {
-      "title": "Sony WF-C700N Bluetooth Truly Wireless Active Noise Cancellation in Ear Earbuds, 360 RA, Multipoint Connection, 10 mins Super Quick Charge, 20hrs Batt, IPX4 Ratings, Fast Pair,App Support-Black",
-      "price": "\u20b97,990",
-      "itemImg": "https://m.media-amazon.com/images/I/41l+GRy9UsL._SX679_.jpg"
-    }
-  ]
+  {
+    "title": "Samsung Galaxy Buds2 Pro",
+    "specifications": [
+      "Bluetooth Truly Wireless",
+      "In Ear Earbuds",
+      "Noise Cancellation",
+      "Bora Purple",
+      "With Mic"
+    ],
+    "price": "\u20b914,990",
+    "itemImg": "https://m.media-amazon.com/images/I/61KVX-MbIUL._SX679_.jpg"
+  },
+  {
+    "title": "Samsung Galaxy Buds 2",
+    "specifications": [
+      "Active Noise Cancellation",
+      "Auto Switch Feature",
+      "Up to 20hrs Battery Life",
+      "White"
+    ],
+    "price": "\u20b96,487",
+    "itemImg": "https://m.media-amazon.com/images/I/51kID6SKhvL._SX679_.jpg"
+  },
+  {
+    "title": "Apple AirPods Pro",
+    "specifications": [],
+    "price": "\u20b918,999",
+    "itemImg": "https://m.media-amazon.com/images/I/61SUj2aKoEL._SX679_.jpg"
+  },
+  {
+    "title": "Google Pixel Buds Pro",
+    "specifications": [
+      "In-Ear Noise Canceling",
+      "Up to 31 Hour Battery Life",
+      "Bluetooth Headphones",
+      "Wireless Charging",
+      "Fog"
+    ],
+    "price": "\u20b928,106",
+    "itemImg": "https://m.media-amazon.com/images/I/61FwbxlXSfL._SX679_.jpg"
+  },
+  {
+    "title": "Sony WF-C700N ",
+    "specifications": [
+      "Bluetooth Truly Wireless",
+      "Active Noise Cancellation",
+      "360 RA",
+      "Multipoint Connection",
+      "10 mins Super Quick Charge",
+      "20hrs Battery Life",
+      "IPX4 Ratings",
+      "Fast Pair",
+      "App Support",
+      "Black"
+    ],
+    "price": "\u20b97,990",
+    "itemImg": "https://m.media-amazon.com/images/I/41l+GRy9UsL._SX679_.jpg"
+  }
+]

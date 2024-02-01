@@ -1,121 +1,268 @@
 [
   {
-    "title": "Lenovo Intel Core i7 12th Gen 1255U - (16 GB/512 GB SSD/Windows 11 Home) V15 G3 IAP Thin and Light Lap...",
+    "title": "Lenovo",
+    "specifications": [
+      "Intel Core i7 12th Gen 1255U",
+      "16 GB RAM",
+      "512 GB SSD",
+      "Windows 11 Home"
+    ],
     "price": "\u20b949,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/d/t/c/v15-g2-alc-laptop-lenovo-original-imaghq2ffspmtfuh.jpeg?q=70"
   },
   {
-    "title": "MSI Modern 14 Intel Core i7 12th Gen 1255U - (16 GB/512 GB SSD/Windows 11 Home) Modern 14 C12M-671IN T...",
+    "title": "MSI Modern 14",
+    "specifications": [
+      "Intel Core i7 12th Gen 1255U",
+      "16 GB RAM",
+      "512 GB SSD",
+      "Windows 11 Home"
+    ],
     "price": "\u20b944,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/y/4/l/-original-imagvyw9gdshzsqq.jpeg?q=70"
   },
   {
-    "title": "Acer Nitro 5 Intel Core i7 12th Gen 12650H - (16 GB/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeFo...",
+    "title": "Acer Nitro 5",
+    "specifications": [
+      "Intel Core i7 12th Gen 12650H",
+      "16 GB RAM",
+      "1 TB SSD",
+      "Windows 11 Home",
+      "8 GB Graphics/NVIDIA GeForce"
+    ],
     "price": "\u20b994,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/8/e/m/-original-imagqf3a3j6ebxzc.jpeg?q=70"
   },
   {
-    "title": "Acer Nitro 5 Intel Core i7 12th Gen 12650H - (16 GB/512 GB SSD/Windows 11 Home/6 GB Graphics/NVIDIA Ge...",
+    "title": "Acer Nitro 5",
+    "specifications": [
+      "Intel Core i7 12th Gen 12650H",
+      "16 GB RAM",
+      "512 GB SSD",
+      "Windows 11 Home",
+      "6 GB Graphics/NVIDIA GeForce"
+    ],
     "price": "\u20b989,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/8/e/m/-original-imagqf3a3j6ebxzc.jpeg?q=70"
   },
   {
-    "title": "MSI Katana 15 Intel Core i7 13th Gen 13620H - (16 GB/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeF...",
+    "title": "MSI Katana 15",
+    "specifications": [
+      "Intel Core i7 13th Gen 13620H",
+      "16 GB RAM",
+      "1 TB SSD",
+      "Windows 11 Home",
+      "8 GB Graphics/NVIDIA GeForce"
+    ],
     "price": "\u20b91,13,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/i/w/k/katana-15-b12udxk-1019in-gaming-laptop-msi-original-imagp9fkssgswfca.jpeg?q=70"
   },
   {
-    "title": "DELL Inspiron 5430 Intel Core i7 13th Gen 13th Generation Intel\u00ae Core\u2122 i7-1355U Processor (12MB Cache,...",
+    "title": "DELL Inspiron 5430",
+    "specifications": [
+      "13th Generation Intel® Core™ i7-1355U Processor (12MB Cache)"
+    ],
     "price": "\u20b986,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/i/w/q/inspiron-5430-laptop-dell-original-imagsc5nryvtsfu4.jpeg?q=70"
   },
   {
-    "title": "ASUS Vivobook S15 OLED Intel EVO H-Series Intel Core i7 12th Gen 12700H - (16 GB/512 GB SSD/Windows 11...",
+    "title": "ASUS Vivobook S15",
+    "specifications": [
+      "Intel Core i7 12th Gen 12700H",
+      "16 GB RAM",
+      "512 GB SSD",
+      "Windows 11 Home"
+    ],
     "price": "\u20b977,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/1/c/4/-original-imagu4zqbyvad3hu.jpeg?q=70"
   },
   {
-    "title": "MSI GF63 Intel Core i7 11th Gen 11800H - (16 GB/1 TB HDD/256 GB SSD/Windows 11 Home/4 GB Graphics/NVID...",
+    "title": "MSI GF63",
+    "specifications": [
+      "Intel Core i7 11th Gen 11800H",
+      "16 GB RAM",
+      "1 TB HDD",
+      "256 GB SSD",
+      "Windows 11 Home",
+      "4 GB Graphics/NVIDIA GeForce"
+    ],
     "price": "\u20b962,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/z/i/f/-original-imagt8bb7ruggfgm.jpeg?q=70"
   },
   {
-    "title": "HP Victus Intel Core i7 13th Gen 13700H - (16 GB/512 GB SSD/Windows 11 Home/6 GB Graphics/NVIDIA GeFor...",
+    "title": "HP Victus",
+    "specifications": [
+      "Intel Core i7 13th Gen 13700H",
+      "16 GB RAM",
+      "512 GB SSD",
+      "Windows 11 Home",
+      "6 GB Graphics/NVIDIA GeForce"
+    ],
     "price": "\u20b91,08,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/8/i/j/-original-imagthcbgurdzwuc.jpeg?q=70"
   },
   {
-    "title": "MSI GF63 Thin Intel Core i7 10th Gen 10750H - (8 GB/1 TB HDD/256 GB SSD/Windows 10 Home/4 GB Graphics/...",
+    "title": "MSI GF63 Thin",
+    "specifications": [
+      "Intel Core i7 10th Gen 10750H",
+      "8 GB RAM",
+      "1 TB HDD",
+      "256 GB SSD",
+      "Windows 10 Home",
+      "4 GB Graphics/NVIDIA GeForce"
+    ],
     "price": "\u20b953,351",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/ko7idu80/computer/x/l/i/gf63-thin-10scxr-1616in-notebook-msi-original-imag2q55h6w2avfr.jpeg?q=70"
   },
   {
-    "title": "MSI Katana 15 Intel Core i7 12th Gen 12650H - (16 GB/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeF...",
-    "price": "\u20b91,03,990",
-    "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/i/w/k/katana-15-b12udxk-1019in-gaming-laptop-msi-original-imagp9fkssgswfca.jpeg?q=70"
-  },
-  {
-    "title": "Acer Predator Neo (2023) Intel Core i7 13th Gen 13700HX - (16 GB/1 TB SSD/Windows 11 Home/6 GB Graphic...",
+    "title": "Acer Predator Neo",
+    "specifications": [
+      "Intel Core i7 13th Gen 13700HX",
+      "16 GB RAM",
+      "1 TB SSD",
+      "Windows 11 Home",
+      "6 GB Graphics"
+    ],
     "price": "\u20b91,19,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/x/r/d/-original-imagp7w2wgf5ense.jpeg?q=70"
   },
   {
-    "title": "Acer TravelMate P2 Intel Core i7 11th Gen 1165G7 - (16 GB/1 TB SSD/Windows 11 Home) TMP214-53 Thin and...",
+    "title": "Acer TravelMate P2",
+    "specifications": [
+      "Intel Core i7 11th Gen 1165G7",
+      "16 GB RAM",
+      "1 TB SSD",
+      "Windows 11 Home"
+    ],
     "price": "\u20b953,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/i/h/g/-original-imagu85ducxdrmeu.jpeg?q=70"
   },
   {
-    "title": "MSI Katana 17 Intel Core i7 12th Gen 12650H - (16 GB/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeF...",
+    "title": "MSI Katana 17",
+    "specifications": [
+      "Intel Core i7 12th Gen 12650H",
+      "16 GB RAM",
+      "1 TB SSD",
+      "Windows 11 Home",
+      "8 GB Graphics/NVIDIA GeForce"
+    ],
     "price": "\u20b91,13,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/j/k/x/-original-imagtfzmyxguhhjh.jpeg?q=70"
   },
   {
-    "title": "MSI Katana 17 Intel Core i7 12th Gen 12650H - (16 GB/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeF...",
+    "title": "MSI Katana 17",
+    "specifications": [
+      "Intel Core i7 12th Gen 12650H",
+      "16 GB RAM",
+      "1 TB SSD",
+      "Windows 11 Home",
+      "8 GB Graphics/NVIDIA GeForce"
+    ],
     "price": "\u20b91,10,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/j/k/x/-original-imagtfzmyxguhhjh.jpeg?q=70"
   },
   {
-    "title": "Lenovo LOQ Intel Core i7 13th Gen 13620H - (16 GB/512 GB SSD/Windows 11 Home/6 GB Graphics/NVIDIA GeFo...",
+    "title": "Lenovo LOQ Intel",
+    "specifications": [
+      "Intel Core i7 13th Gen 13620H",
+      "16 GB RAM",
+      "512 GB SSD",
+      "Windows 11 Home",
+      "6 GB Graphics/NVIDIA GeForce"
+    ],
     "price": "\u20b999,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/r/q/i/-original-imagtvudqkkuvhsh.jpeg?q=70"
   },
   {
-    "title": "SAMSUNG Galaxy Book3 Intel Core i7 13th Gen 1355U - (16 GB/512 GB SSD/Windows 11 Home) Galaxy Book3 Th...",
+    "title": "SAMSUNG Galaxy Book 3",
+    "specifications": [
+      "Intel Core i7 13th Gen 1355U",
+      "16 GB RAM",
+      "512 GB SSD",
+      "Windows 11 Home"
+    ],
     "price": "\u20b989,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/b/y/f/galaxy-book3-thin-and-light-laptop-samsung-original-imagnb277ppuutjd.jpeg?q=70"
   },
   {
-    "title": "ASUS ROG Strix G16 (2023) with 90WHr Battery Intel HX-Series Intel Core i7 13th Gen 13650HX - (16 GB/1...",
+    "title": "ASUS ROG Strix G16",
+    "specifications": [
+      "Intel Core i7 13th Gen 13650HX",
+      "16 GB RAM",
+      "1 TB SSD",
+      "Windows 11 Home",
+      "8 GB Graphics"
+    ],
     "price": "\u20b91,40,751",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/n/2/n/-original-imagqfxrg76yafrr.jpeg?q=70"
   },
   {
-    "title": "MSI GS66 Intel Core i7 11th Gen 11800H - (16 GB/1 TB SSD/Windows 10 Home/8 GB Graphics/NVIDIA GeForce ...",
+    "title": "MSI GS66",
+    "specifications": [
+      "Intel Core i7 11th Gen 11800H",
+      "16 GB RAM",
+      "1 TB SSD",
+      "Windows 10 Home",
+      "8 GB Graphics/NVIDIA GeForce"
+    ],
     "price": "\u20b91,24,191",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/kqv8vww0/computer/w/m/g/na-notebook-msi-original-imag4sh33sdvnkgh.jpeg?q=70"
   },
   {
-    "title": "ASUS Zenbook S 13 OLED (2023) 1 cm Thin & 1 kg Light, Intel EVO Intel Core i7 13th Gen 1335U - (16 GB/...",
+    "title": "ASUS Zenbook S 13",
+    "specifications": [
+      "Intel Core i7 13th Gen 1335U",
+      "16 GB RAM",
+      "512 GB SSD",
+      "Windows 11 Home"
+    ],
     "price": "\u20b91,17,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/6/y/8/-original-imagpxgque5gy3hf.jpeg?q=70"
   },
   {
-    "title": "HP Intel Core i7 12th Gen - (16 GB/1 TB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeForce RTX NVIDIA\u00ae G...",
+    "title": "HP",
+    "specifications": [
+      "Intel Core i7 12th Gen",
+      "16 GB RAM",
+      "1 TB SSD",
+      "Windows 11 Home",
+      "4 GB Graphics/NVIDIA GeForce RTX"
+    ],
     "price": "\u20b991,590",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/r/y/f/victus-15-gaming-laptop-hp-original-imags3zezybpfqzt.jpeg?q=70"
   },
   {
-    "title": "Infinix ZEROBOOK 13 Intel Intel Core i7 13th Gen 13700H - (32 GB/1 TB SSD/Windows 11 Home) ZL513 Thin ...",
+    "title": "Infinix ZEROBOOK 13",
+    "specifications": [
+      "Intel Core i7 13th Gen 13700H",
+      "32 GB RAM",
+      "1 TB SSD",
+      "Windows 11 Home"
+    ],
     "price": "\u20b971,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/7/d/i/zl12-business-laptop-infinix-original-imagm83gc6xr8sau.jpeg?q=70"
   },
   {
-    "title": "HP Victus Intel Core i7 12th Gen 12650H - (16 GB/512 GB SSD/Windows 11 Home/4 GB Graphics/NVIDIA GeFor...",
+    "title": "HP Victus",
+    "specifications": [
+      "Intel Core i7 12th Gen 12650H",
+      "16 GB RAM",
+      "512 GB SSD",
+      "Windows 11 Home",
+      "4 GB Graphics/NVIDIA GeForce"
+    ],
     "price": "\u20b994,290",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/l5bd5zk0/computer/o/l/w/15-fa0353tx-gaming-laptop-hp-original-imaggytdx6zpv6qg.jpeg?q=70"
   },
   {
-    "title": "MSI Pulse 17 Intel Core i7 13th Gen 13700H - (16 GB/1 TB SSD/Windows 11 Home/8 GB Graphics/NVIDIA GeFo...",
+    "title": "MSI Pulse 17",
+    "specifications": [
+      "Intel Core i7 13th Gen 13700H",
+      "16 GB RAM",
+      "1 TB SSD",
+      "Windows 11 Home",
+      "8 GB Graphics/NVIDIA GeForce"
+    ],
     "price": "\u20b91,28,990",
     "itemImg": "https://rukminim2.flixcart.com/image/312/312/xif0q/computer/f/4/f/pulse-17-b13vgk-252in-gaming-laptop-msi-original-imagmmhkf3gadpdf.jpeg?q=70"
   }
