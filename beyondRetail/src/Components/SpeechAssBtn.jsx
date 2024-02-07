@@ -17,9 +17,9 @@ const SpeechAssBtn = () => {
   const dispatch = useDispatch();
 
   const handleButtonClick = async () => {
-    const title = "APPLE iPhone 14 Plus"
-    const price = "\u20b969,990"
-    const itemImg = "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/v/0/t/-original-imaghxa5rgcv5enm.jpeg?q=70"
+    // const title = "APPLE iPhone 14 Plus"
+    // const price = "\u20b969,990"
+    // const itemImg = "https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/v/0/t/-original-imaghxa5rgcv5enm.jpeg?q=70"
     try {
       setIsAnimationVisible(!isAnimationVisible);
 
@@ -29,8 +29,8 @@ const SpeechAssBtn = () => {
 
       if (response.ok) {
         const data = await response.json();
-        setResult(data["user_input"]);
-        console.log(data);
+        setResult(data["response_text"]);
+        console.log(data["intent"]==="orderProduct");
 
         // Check the intent and dispatch addToCart if it's 'orderProduct'
 
@@ -46,10 +46,15 @@ const SpeechAssBtn = () => {
 
 
 
-        if (data["intent"] === "orderProduct") {
-
-
+        if (data["intent"] == "orderProduct") {
+          
+            const productDetails=data['response_text'][1]
+          const title=productDetails['title']
+          const price =productDetails['price']
+          const itemImg=productDetails['itemImg']
+          console.log(title,price)
           dispatch(addToCart({ title, price, itemImg }));
+          
         }
 
       } else {
@@ -71,6 +76,7 @@ const SpeechAssBtn = () => {
   const closePopup = () => {
     // Hide the popup
     setIsPopupVisible(false);
+    setIsAnimationVisible(false)
   };
 
   return (
@@ -97,9 +103,10 @@ const SpeechAssBtn = () => {
         {isPopupVisible && isAnimationVisible && (
           <div className="popup rounded-lg" style={styles.popup}>
             <span className="close" onClick={closePopup}>&times;</span>
-            <p>{result}</p>
+            <p>{result[0]}</p>
           </div>
         )}
+      
       </div>
     </>
   );
