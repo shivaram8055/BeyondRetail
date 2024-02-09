@@ -1,23 +1,23 @@
 [
-    {
-      "title": "PS5 Digital Standalone",
-      "price": "\u20b944,990",
-      "itemImg": "https://m.media-amazon.com/images/I/51wPWj--fAL._SX679_.jpg"
-    },
-    {
-      "title": "Sony Dualsense Edge Wireless",
-      "price": "\u20b918,152",
-      "itemImg": " https://m.media-amazon.com/images/I/51qcJKGmDXL._SX679_.jpg"
-    },
-    {
-      "title": "Sony Marvel's Spider-Man: Miles Morales (PS5)",
-      "price": "\u20b91,999",
-      "itemImg": "https://m.media-amazon.com/images/I/6168UK7hfEL._SX679_.jpg"
-    },
-    
-    {
-      "title": "Call of Duty: Modern Warfare III PS5",
-      "price": "\u20b96,209",
-      "itemImg": "https://m.media-amazon.com/images/I/71BtwjY3zxL._SX679_.jpg"
-    }
-  ]
+  {
+    "title": "PS5 Digital Standalone",
+    "price": "\u20b944,990",
+    "itemImg": "https://m.media-amazon.com/images/I/51wPWj--fAL._SX679_.jpg"
+  },
+  {
+    "title": "Sony Dualsense Edge Wireless",
+    "price": "\u20b918,152",
+    "itemImg": " https://m.media-amazon.com/images/I/51qcJKGmDXL._SX679_.jpg"
+  },
+  {
+    "title": "Sony Marvel's Spider-Man(PS5)",
+    "price": "\u20b91,999",
+    "itemImg": "https://m.media-amazon.com/images/I/6168UK7hfEL._SX679_.jpg"
+  },
+
+  {
+    "title": "COD: Modern Warfare III PS5",
+    "price": "\u20b96,209",
+    "itemImg": "https://m.media-amazon.com/images/I/71BtwjY3zxL._SX679_.jpg"
+  }
+]

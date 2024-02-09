@@ -14,7 +14,7 @@ const ProductDetails = ({ title, price, itemImg, specifications, onClose }) => {
     <>
       {/* Backdrop to cover the entire screen when product details are visible */}
       <div
-        className="fixed top-0 left-0 w-fit h-screen bg-white z-50 m-96"
+        className="fixed top-0 left-0 w-fit h-screen bg-white z-50 "
         onClick={handleClose}
       ></div>
       {/* Product details */}

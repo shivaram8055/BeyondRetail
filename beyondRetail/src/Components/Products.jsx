@@ -36,8 +36,10 @@ const ProductPage = () => {
 
   return (
     <>
-      <h1 className="px-navbarPadX text-xl font-bold py-6">Products Available:</h1>
-      <div className="flex justify-center my-4">
+      <h1 className="px-navbarPadX text-xl font-bold py-6">
+        Products Available:
+      </h1>
+      <div className="flex justify-center my-4 items-baseline">
         {categories.map((category) => (
           <button
             key={category}
@@ -53,9 +55,10 @@ const ProductPage = () => {
         ))}
       </div>
 
-      <div className="flex flex-wrap px-navbarPadX items-center">
+      <div className="grid grid-cols-5 justify-center px-navbarPadX gap-5">
+        {" "}
+        {/* Change here */}
         {products.map((item, index) => (
-          
           <Item
             title={item.title}
             itemImg={item.itemImg}
