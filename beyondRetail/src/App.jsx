@@ -7,11 +7,9 @@ import HomePage from "./Pages/HomePage";
 import ContactPage from "./Pages/ContactPage";
 import ProductPage from "./Components/Products";
 import SignUpPage from "./Pages/SignUpPage";
+import AboutPage from "./Pages/AboutPage";
 
 import Footer from "./Components/footer/Footer";
-import Carousel from "./Components/HomeScreenCarousel/HomeCarousel";
-import ProductDetails from "./Components/ProductDetails";
-import ProductsNav from "./Components/ProductsNav";
 
 import { Provider } from "react-redux";
 import Store from "./Redux/Store";
@@ -29,7 +27,8 @@ const App = () => {
             <Route path="/home" element={<HomePage />} />
             <Route path="contact" element={<ContactPage />} />
             <Route path="products" element={<ProductPage />} />
-            <Route path="signUp" element={<SignUpPage />} />
+            <Route path="/signin" element={<SignUpPage />} />
+            <Route path="/about" element={<AboutPage />} />
             <Route path="/checkout" element={<CheckOut />} />
           </Routes>
           <Footer />

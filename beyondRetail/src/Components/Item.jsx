@@ -15,7 +15,7 @@ const Item = ({ title, price, itemImg, specifications }) => {
   return (
     <>
       <div
-        className={`flex pt-10 flex-col gap-4 item-center justify-center hover:shadow-md p-4 rounded-xl overflow-hidden w-54${
+        className={`flex pt-10 flex-col gap-4 item-center justify-center hover:shadow-sm border-2 hover:shadow-teal-400 bor p-4 rounded-xl overflow-hidden w-54${
           showProductDetails ? "opacity-50 pointer-events-none" : ""
         }`}
         onClick={handleProductClick}

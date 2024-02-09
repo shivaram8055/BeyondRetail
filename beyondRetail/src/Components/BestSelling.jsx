@@ -41,7 +41,7 @@ const BestSelling = () => {
             </div>
           </div>
         </div>
-        <div className="conatiner snap-x snap-mandatory flex justify-around my-5 flex-col md:flex-row ">
+        <div className="contAiner snap-x snap-mandatory flex justify-around my-5 flex-col md:flex-row gap-4 ">
           {gammingData.map((product, index) => (
             <Item
               title={product.title}

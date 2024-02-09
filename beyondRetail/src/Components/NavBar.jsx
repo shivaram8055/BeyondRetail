@@ -4,12 +4,12 @@ import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined";
 import { Link, useLocation } from "react-router-dom";
-import { teal } from "@mui/material/colors";
 
 const NavBar = () => {
   const location = useLocation();
   const [isSearchVisible, setIsSearchVisible] = useState(false);
-  const [isVisible, setIsVisible] = useState(true);
+  const [searchQuery, setSearchQuery] = useState("");
+  // const [isVisible, setIsVisible] = useState(true);
 
   const timeout = setTimeout(() => {
     setIsVisible(false);
@@ -17,6 +17,23 @@ const NavBar = () => {
 
   const handleSearchClick = () => {
     setIsSearchVisible(true);
+  };
+
+  const handleSearchBlur = () => {
+    setIsSearchVisible(false);
+  };
+
+  const handleInputChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
+  const handleKeyPress = (e) => {
+    if (e.key === "Enter") {
+      // Execute search logic
+      console.log("Search query:", searchQuery);
+      // Implement your logic here, such as redirecting to search page
+      // history.push(`/search?query=${encodeURIComponent(searchQuery)}`);
+    }
   };
 
   const isLinkActive = (path) => location.pathname === path;
@@ -31,6 +48,7 @@ const NavBar = () => {
           <button className="pl-1 hover:underline font-bold">ShopNow</button>
         </Link>
       </div>
+      {/* Your announcement bar */}
       <div className="flex justify-between px-5 md:px-navbarPadX py-navbarPadY border-b-2 md:pt-16">
         <div className="logoTitle font-bold text-md md:text-2xl">
           BEYONDRETAIL
@@ -62,33 +80,16 @@ const NavBar = () => {
               Products
             </Link>
             <Link
-              to="signin"
+              to="about"
               className={`hover:underline ${
-                isLinkActive("/signin") ? "text-teal-700 underline" : ""
+                isLinkActive("/about") ? "text-teal-700 underline" : ""
               }`}
             >
-              SignIn
+              About
             </Link>
-
-            {/* <a href="">Home</a>
-            <a href="">Products</a>
-            <a href="">AboutUs</a>
-            <a href="">SignUp</a> */}
           </nav>
         </div>
         <div className="flex gap-4 md:gap-6 items-center">
-          <div onClick={handleSearchClick}>
-            {isSearchVisible ? (
-              <input
-                className="border text-sm p-1 px-2"
-                type="text"
-                placeholder="Looking for something"
-                onBlur={() => setIsSearchVisible(false)}
-              />
-            ) : (
-              <SearchIcon />
-            )}
-          </div>
           <div className="hidden md:block">
             <FavoriteBorderIcon />
           </div>
@@ -97,10 +98,11 @@ const NavBar = () => {
               <ShoppingCartOutlinedIcon />
             </div>
           </Link>
-
-          <div className="md:hidden">
-            <AccountCircleOutlinedIcon />
-          </div>
+          <Link to="signin">
+            <div className="">
+              <AccountCircleOutlinedIcon />
+            </div>
+          </Link>
         </div>
       </div>
     </>
