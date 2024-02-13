@@ -5,7 +5,7 @@ import { Icons } from "./Menus";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white px-navbarPadX">
+    <footer className="bg-black text-white md:px-navbarPadX flex flex-col">
       <ItemsContainer />
       <div
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
@@ -13,7 +13,6 @@ const Footer = () => {
       >
         <span>© 2023 Appy. All rights reserved.</span>
         <span>Terms · Privacy Policy</span>
-        <SocialIcons Icons={Icons} />
       </div>
     </footer>
   );

@@ -54,14 +54,14 @@ const ProductPage = () => {
 
   return (
     <>
-      <div className="text-sm px-navbarPadX pt-10 ">
+      <div className="text-sm md:px-navbarPadX md:pt-10 p-4">
         Home {<ChevronRightTwoToneIcon />} {location.pathname.slice(1)}
       </div>
-      <h1 className="px-navbarPadX text-xl font-bold py-6">
+      <h1 className="md:px-navbarPadX text-xl font-bold md:py-6 p-4">
         Products Available:
       </h1>
 
-      <div className="flex justify-center my-8">
+      <div className="flex justify-center md:my-8 p-4">
         <div className="w-full md:w-3/4 lg:w-1/2 flex items-center">
           <input
             type="text"
@@ -79,7 +79,7 @@ const ProductPage = () => {
         </div>
       </div>
 
-      <div className="flex justify-center my-6 items-baseline">
+      <div className="flex justify-center my-6 items-baseline flex-wrap gap-3">
         {categories.map((category) => (
           <button
             key={category}
@@ -95,7 +95,7 @@ const ProductPage = () => {
         ))}
       </div>
 
-      <div className="grid grid-cols-5 justify-center px-navbarPadX gap-5 py-6">
+      <div className="grid md:grid-cols-5 justify-center md:px-navbarPadX gap-5 md:py-6 grid-cols-2 p-4">
         {filteredProducts.map((item, index) => (
           <Item
             title={item.title}
