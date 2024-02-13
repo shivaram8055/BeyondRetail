@@ -51,7 +51,7 @@ const NavBar = () => {
       {/* Your announcement bar */}
       <div className="flex justify-between px-5 md:px-navbarPadX py-navbarPadY border-b-2 md:pt-16">
         <div className="logoTitle font-bold text-md md:text-2xl">
-          BEYONDRETAIL
+          <Link to="/">BEYONDRETAIL</Link>
         </div>
         <div>
           <nav className=" justify-between md:gap-8 hidden md:flex">
