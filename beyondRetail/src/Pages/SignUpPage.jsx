@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import CardFlip from "react-card-flip";
 import ChevronRightTwoToneIcon from "@mui/icons-material/ChevronRightTwoTone";
 
@@ -48,8 +48,9 @@ const SignUpPage = () => {
 
   return (
     <div className="pt-4">
-      <div className="text-sm px-navbarPadX">
-        Home <ChevronRightTwoToneIcon /> {location.pathname.slice(1)}
+      <div className="text-sm md:px-navbarPadX px-10">
+        <Link to="/">Home</Link> <ChevronRightTwoToneIcon />{" "}
+        {location.pathname.slice(1)}
       </div>
       <div className="flex justify-center items-center h-fit m-10">
         <CardFlip isFlipped={isFlipped} flipDirection="horizontal">

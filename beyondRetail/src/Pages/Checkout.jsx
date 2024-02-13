@@ -10,10 +10,11 @@ const CheckOut = () => {
   const dispatch = useDispatch();
   return (
     <>
-      <div className="text-sm px-navbarPadX pt-10 ">
-        Home {<ChevronRightTwoToneIcon />} {location.pathname.slice(1)}
+      <div className="text-sm md:px-navbarPadX md:pt-10 px-5 pt-5">
+        <Link to="/">Home</Link> {<ChevronRightTwoToneIcon />}{" "}
+        {location.pathname.slice(1)}
       </div>
-      <div className="m-16">
+      <div className="md:m-16 m-8">
         <h1>Checkout:</h1>
         {cartItems.length === 0 ? (
           <div className="p-3">

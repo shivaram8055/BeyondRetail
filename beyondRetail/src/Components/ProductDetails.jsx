@@ -34,7 +34,7 @@ const ProductDetails = ({ title, price, itemImg, specifications, onClose }) => {
           <h1 className="font-bold text-lg">{title}</h1>
           <h2 className="text-md">Price: {price}</h2>
           <button
-            className="border md:p-2 p-1 rounded-lg bg-teal-300 text-teal-900 md:w-1/4 hover:text-teal-50 hover:bg-teal-400"
+            className="border md:p-2 p-1 rounded-lg bg-teal-300 text-teal-900 md:w-fit hover:text-teal-50 hover:bg-teal-400"
             onClick={() => dispatch(addToCart({ title, price, itemImg }))}
           >
             Add to cart

@@ -1,9 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ChevronRightTwoToneIcon from "@mui/icons-material/ChevronRightTwoTone";
 
 const AboutPage = () => {
   return (
-    <div className="px-4 py-8 mx-navbarMarX my-10">
+    <div className="px-4 md:py-8 md:mx-navbarMarX my-10">
+      <div className="text-sm p-4 mb-10">
+        <Link to="/">Home</Link> {<ChevronRightTwoToneIcon />}{" "}
+        {location.pathname.slice(1)}
+      </div>
       <h1 className="text-3xl font-bold mb-4">About Beyond Retail</h1>
       <p className="text-lg mb-4">
         Beyond Retail is your premier destination for cutting-edge electronics
