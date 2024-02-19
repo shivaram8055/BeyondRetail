@@ -22,23 +22,22 @@ const SpeechBtn = () => {
       if (responseFromSpeechReco.ok) {
         const data = await responseFromSpeechReco.json();
         setPopupMessage(data["response_text"]);
+        if (data["intent"] == "orderProduct") {
+          const productDetails = data["response_text"][1];
+          const title = productDetails["title"];
+          const price = productDetails["price"];
+          const itemImg = productDetails["itemImg"];
+          console.log(title, price);
+          dispatch(addToCart({ title, price, itemImg }));
+        } else {
+          console.error("Error in Speech Recognition:", response.statusText);
+        }
       }
 
       setTimeout(() => {
         setIsAnimationVisible(false);
-        setListeningText("Press the button to start listening");
+        setPopupMessage("Processing your request");
       }, 5000);
-
-      if (data["intent"] == "orderProduct") {
-        const productDetails = data["response_text"][1];
-        const title = productDetails["title"];
-        const price = productDetails["price"];
-        const itemImg = productDetails["itemImg"];
-        console.log(title, price);
-        dispatch(addToCart({ title, price, itemImg }));
-      } else {
-        console.error("Error in Speech Recognition:", response.statusText);
-      }
     } catch (error) {
       console.error("Error in Speech Recognition:", error.message);
     }
