@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import KeyboardVoiceOutlinedIcon from "@mui/icons-material/KeyboardVoiceOutlined";
 import Lottie from "lottie-react";
 import SpeechAnimation from "../assets/Animation/SpeechAnimation.json";
-import { addToCart } from "../redux/cartSlice";
+import { addToCart } from "../Redux/CartSlice";
 import { useDispatch } from "react-redux";
 
 const SpeechAssBtn = () => {
@@ -10,6 +10,7 @@ const SpeechAssBtn = () => {
   const [listeningText, setListeningText] = useState(
     "Press the button to start listening"
   );
+  const dispatch = useDispatch();
   const [result, setResult] = useState("");
   const [isPopupVisible, setIsPopupVisible] = useState(false);
 
