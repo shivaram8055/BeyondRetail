@@ -25,10 +25,10 @@ const ItemsContainer = () => {
           </button>
         </div>
       </div>
-      <div className="flex gap-5 md:gap-40 flex-col md:flex-row p-5">
-        <Item Links={PRODUCTS} title="PRODUCTS" />
+      <div className="gap-5 md:gap-40 flex flex-wrap md:flex-row p-5">
         <Item Links={RESOURCES} title="RESOURCES" />
         <Item Links={COMPANY} title="COMPANY" />
+        <Item Links={PRODUCTS} title="PRODUCTS" />
       </div>
     </div>
   );

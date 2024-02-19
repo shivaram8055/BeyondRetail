@@ -27,7 +27,7 @@ const BestSelling = () => {
     },
   };
   return (
-    <div className="container w-fit md:ml-navbarMarX md:pr-navbarPadX">
+    <div className="container w-fit md:ml-navbarMarX md:pr-navbarPadX ml-8">
       <div className="flex flex-col ">
         <div className="flex flex-col md:gap-3 gap-3">
           <div className="flex items-center md:gap-2">
@@ -41,7 +41,7 @@ const BestSelling = () => {
             </div>
           </div>
         </div>
-        <div className="conatiner snap-x snap-mandatory flex justify-around my-5 flex-col md:flex-row ">
+        <div className="contAiner snap-x snap-mandatory flex justify-around my-5 flex-col md:flex-row gap-4 pl-2 ">
           {gammingData.map((product, index) => (
             <Item
               title={product.title}
