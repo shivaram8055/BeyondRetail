@@ -20,6 +20,7 @@ const SpeechBtn = () => {
           method: "POST",
         }
       );
+      const data = await responseFromSpeechReco.json();
     } else {
       setIsAnimationVisible(false);
       setPopupMessage("Click to activate Voice Assistant");
@@ -28,7 +29,7 @@ const SpeechBtn = () => {
     try {
       if (responseFromSpeechReco.ok) {
         setPopupMessage("Request Processing");
-        const data = await responseFromSpeechReco.json();
+        // const data = await responseFromSpeechReco.json();
         setPopupMessage(data["response_text"]);
       }
 
