@@ -3,8 +3,7 @@ import KeyboardVoiceOutlinedIcon from "@mui/icons-material/KeyboardVoiceOutlined
 import Lottie from "lottie-react";
 import SpeechAnimation from "../assets/Animation/SpeechAnimation.json";
 import { addToCart } from "../Redux/CartSlice";
-import { useDispatch } from 'react-redux'
-
+import { useDispatch } from "react-redux";
 
 const SpeechAssBtn = () => {
   const [isAnimationVisible, setIsAnimationVisible] = useState(false);
@@ -13,8 +12,6 @@ const SpeechAssBtn = () => {
   );
   const [result, setResult] = useState("");
   const [isPopupVisible, setIsPopupVisible] = useState(false);
-
-  const dispatch = useDispatch();
 
   const handleButtonClick = async () => {
     // const title = "APPLE iPhone 14 Plus"
@@ -30,10 +27,9 @@ const SpeechAssBtn = () => {
       if (response.ok) {
         const data = await response.json();
         setResult(data["response_text"]);
-        console.log(data["intent"]==="orderProduct");
+        console.log(data["intent"] === "orderProduct");
 
         // Check the intent and dispatch addToCart if it's 'orderProduct'
-
 
         // Show the popup
         setIsPopupVisible(true);
@@ -44,19 +40,14 @@ const SpeechAssBtn = () => {
           setListeningText("Press the button to start listening");
         }, 5000);
 
-
-
         if (data["intent"] == "orderProduct") {
-          
-            const productDetails=data['response_text'][1]
-          const title=productDetails['title']
-          const price =productDetails['price']
-          const itemImg=productDetails['itemImg']
-          console.log(title,price)
+          const productDetails = data["response_text"][1];
+          const title = productDetails["title"];
+          const price = productDetails["price"];
+          const itemImg = productDetails["itemImg"];
+          console.log(title, price);
           dispatch(addToCart({ title, price, itemImg }));
-          
         }
-
       } else {
         console.error("Error in Speech Recognition:", response.statusText);
       }
@@ -76,7 +67,7 @@ const SpeechAssBtn = () => {
   const closePopup = () => {
     // Hide the popup
     setIsPopupVisible(false);
-    setIsAnimationVisible(false)
+    setIsAnimationVisible(false);
   };
 
   return (
@@ -102,11 +93,12 @@ const SpeechAssBtn = () => {
         {/* Popup to display results */}
         {isPopupVisible && isAnimationVisible && (
           <div className="popup rounded-lg" style={styles.popup}>
-            <span className="close" onClick={closePopup}>&times;</span>
+            <span className="close" onClick={closePopup}>
+              &times;
+            </span>
             <p>{result[0]}</p>
           </div>
         )}
-      
       </div>
     </>
   );

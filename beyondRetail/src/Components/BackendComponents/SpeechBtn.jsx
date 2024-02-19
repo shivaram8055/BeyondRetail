@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import KeyboardVoiceOutlinedIcon from "@mui/icons-material/KeyboardVoiceOutlined";
 import Lottie from "lottie-react";
 import SpeechAnimation from "../../assets/Animation/SpeechAnimation.json";
-import { Link } from "react-router-dom";
+import { addToCart } from "../Redux/CartSlice";
+import { useDispatch } from "react-redux";
 
 const SpeechBtn = () => {
   const [isAnimationVisible, setIsAnimationVisible] = useState(false);
@@ -10,7 +11,7 @@ const SpeechBtn = () => {
   const [popMessage, setPopupMessage] = useState(
     "Click to activate Voice Assistant"
   );
-
+  const dispatch = useDispatch();
   const processVoice = async () => {
     try {
       const responseFromSpeechReco = await fetch(
@@ -30,7 +31,10 @@ const SpeechBtn = () => {
           console.log(title, price);
           dispatch(addToCart({ title, price, itemImg }));
         } else {
-          console.error("Error in Speech Recognition:", response.statusText);
+          console.error(
+            "Error in Speech Recognition:",
+            responseFromSpeechReco.statusText
+          );
         }
       }
 
@@ -39,7 +43,7 @@ const SpeechBtn = () => {
         setPopupMessage("Processing your request");
       }, 5000);
     } catch (error) {
-      console.error("Error in Speech Recognition:", error.message);
+      console.error("Error in Speech Recognition");
     }
   };
   const handleClickButton = async () => {
