@@ -11,48 +11,48 @@ const SpeechBtn = () => {
     "Click to activate Voice Assistant"
   );
   const handleClickButton = async () => {
-    !isAnimationVisible
-      ? setIsAnimationVisible(true)
-      : setIsAnimationVisible(false);
-    !isAnimationVisible
-      ? setPopupMessage("Iam Listening")
-      : setPopupMessage("Click to activate Voice Assistant");
-
-    try {
-      const responseFromSpeechReco = await fetch(
-        "http://localhost:5000/process_voice",
-        {
-          method: "POST",
+    if (!isAnimationVisible) {
+      setIsAnimationVisible(true);
+      setPopupMessage("Iam Listening");
+      try {
+        const responseFromSpeechReco = await fetch(
+          "http://localhost:5000/process_voice",
+          {
+            method: "POST",
+          }
+        );
+        if (responseFromSpeechReco.ok) {
+          const data = await responseFromSpeechReco.json();
+          setPopupMessage(data["response_text"]);
         }
-      );
-      if (responseFromSpeechReco.ok) {
-        const data = await responseFromSpeechReco.json();
-        setPopupMessage(data["response_text"]);
-      }
 
-      setTimeout(() => {
-        setIsAnimationVisible(false);
-        setListeningText("Press the button to start listening");
-      }, 5000);
+        setTimeout(() => {
+          setIsAnimationVisible(false);
+          setListeningText("Press the button to start listening");
+        }, 5000);
 
-      if (data["intent"] == "orderProduct") {
-        const productDetails = data["response_text"][1];
-        const title = productDetails["title"];
-        const price = productDetails["price"];
-        const itemImg = productDetails["itemImg"];
-        console.log(title, price);
-        dispatch(addToCart({ title, price, itemImg }));
-      } else {
-        console.error("Error in Speech Recognition:", response.statusText);
+        if (data["intent"] == "orderProduct") {
+          const productDetails = data["response_text"][1];
+          const title = productDetails["title"];
+          const price = productDetails["price"];
+          const itemImg = productDetails["itemImg"];
+          console.log(title, price);
+          dispatch(addToCart({ title, price, itemImg }));
+        } else {
+          console.error("Error in Speech Recognition:", response.statusText);
+        }
+      } catch (error) {
+        console.error("Error in Speech Recognition:", error.message);
       }
-    } catch (error) {
-      console.error("Error in Speech Recognition:", error.message);
+    } else {
+      setIsAnimationVisible(false);
+      setPopupMessage("Click to activate Voice Assistant");
     }
   };
 
   return (
     <div>
-      <div className="fixed popup bg-teal-200 w-fit right-28 bottom-10 p-3 rounded-md">
+      <div className="fixed popup bg-teal-200 w-fit right-28 bottom-10 p-3 rounded-md max-w-sm">
         {popMessage}
       </div>
       <div
