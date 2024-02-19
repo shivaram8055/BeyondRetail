@@ -10,26 +10,17 @@ const SpeechBtn = () => {
   const [popMessage, setPopupMessage] = useState(
     "Click to activate Voice Assistant"
   );
-  const handleClickButton = async () => {
-    if (!isAnimationVisible) {
-      setIsAnimationVisible(true);
-      setPopupMessage("Iam Listening");
+
+  const processVoice = async () => {
+    try {
       const responseFromSpeechReco = await fetch(
         "http://localhost:5000/process_voice",
         {
           method: "POST",
         }
       );
-      const data = await responseFromSpeechReco.json();
-    } else {
-      setIsAnimationVisible(false);
-      setPopupMessage("Click to activate Voice Assistant");
-    }
-
-    try {
       if (responseFromSpeechReco.ok) {
-        setPopupMessage("Request Processing");
-        // const data = await responseFromSpeechReco.json();
+        const data = await responseFromSpeechReco.json();
         setPopupMessage(data["response_text"]);
       }
 
@@ -50,6 +41,16 @@ const SpeechBtn = () => {
       }
     } catch (error) {
       console.error("Error in Speech Recognition:", error.message);
+    }
+  };
+  const handleClickButton = async () => {
+    if (!isAnimationVisible) {
+      setIsAnimationVisible(true);
+      setPopupMessage("Iam Listening");
+      await processVoice();
+    } else {
+      setIsAnimationVisible(false);
+      setPopupMessage("Click to activate Voice Assistant");
     }
   };
 
