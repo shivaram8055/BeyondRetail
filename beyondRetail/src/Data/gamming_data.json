@@ -2,22 +2,43 @@
   {
     "title": "PS5 Digital Standalone",
     "price": "\u20b944,990",
-    "itemImg": "https://m.media-amazon.com/images/I/51wPWj--fAL._SX679_.jpg"
+    "itemImg": "https://m.media-amazon.com/images/I/51wPWj--fAL._SX679_.jpg",
+    "specifications": [
+      "8-core AMD Zen 2 CPU",
+      "AMD Radeon RDNA 2 GPU",
+      "825GB SSD",
+      "16GB GDDR6 RAM"
+    ]
   },
   {
     "title": "Sony Dualsense Edge Wireless",
     "price": "\u20b918,152",
-    "itemImg": " https://m.media-amazon.com/images/I/51qcJKGmDXL._SX679_.jpg"
+    "itemImg": "https://m.media-amazon.com/images/I/51qcJKGmDXL._SX679_.jpg",
+    "specifications": [
+      "Adaptive triggers",
+      "Built-in microphone",
+      "Haptic feedback",
+      "Touchpad"
+    ]
   },
   {
     "title": "Sony Marvel's Spider-Man(PS5)",
     "price": "\u20b91,999",
-    "itemImg": "https://m.media-amazon.com/images/I/6168UK7hfEL._SX679_.jpg"
+    "itemImg": "https://m.media-amazon.com/images/I/6168UK7hfEL._SX679_.jpg",
+    "specifications": [
+      "Open-world action-adventure game",
+      "Developed by Insomniac Games",
+      "Released in 2020"
+    ]
   },
-
   {
     "title": "COD: Modern Warfare III PS5",
     "price": "\u20b96,209",
-    "itemImg": "https://m.media-amazon.com/images/I/71BtwjY3zxL._SX679_.jpg"
+    "itemImg": "https://m.media-amazon.com/images/I/71BtwjY3zxL._SX679_.jpg",
+    "specifications": [
+      "First-person shooter game",
+      "Developed by Infinity Ward",
+      "Released in 2019"
+    ]
   }
 ]
