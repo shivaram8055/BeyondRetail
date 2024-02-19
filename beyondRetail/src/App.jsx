@@ -14,6 +14,7 @@ import Footer from "./Components/footer/Footer";
 import { Provider } from "react-redux";
 import Store from "./Redux/Store";
 import CheckOut from "./Pages/Checkout";
+import SpeechBtn from "./Components/BackendComponents/SpeechBtn";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
             <Route path="/signin" element={<SignUpPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/checkout" element={<CheckOut />} />
+            <Route path="/speech" element={<SpeechBtn />} />
           </Routes>
           <Footer />
         </Router>
