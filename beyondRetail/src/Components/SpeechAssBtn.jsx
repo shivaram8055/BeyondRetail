@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import KeyboardVoiceOutlinedIcon from "@mui/icons-material/KeyboardVoiceOutlined";
 import Lottie from "lottie-react";
 import SpeechAnimation from "../assets/Animation/SpeechAnimation.json";
-import { addToCart } from "../Redux/CartSlice";
+import { addToCart } from "../redux/cartSlice";
 import { useDispatch } from "react-redux";
 
 const SpeechAssBtn = () => {
