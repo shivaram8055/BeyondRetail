@@ -14,7 +14,7 @@ const HomePage = () => {
       {/* <Categories /> */}
       <BestSelling />
       <DeliveryDetails />
-      <SpeechBtn />
+      <SpeechAssBtn />
     </div>
   );
 };
