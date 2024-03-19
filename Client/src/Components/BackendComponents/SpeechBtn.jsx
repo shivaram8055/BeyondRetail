@@ -36,11 +36,6 @@ const SpeechBtn = () => {
           responseFromSpeechReco.statusText
         );
       }
-
-      // setTimeout(() => {
-      //   setIsAnimationVisible(false);
-      //   setPopupMessage("Processing your request");
-      // }, 5000);
     } catch (error) {
       console.error("Error in Speech Recognition");
     }
