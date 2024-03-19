@@ -1,5 +1,8 @@
-Flask
-flask-cors
-wit
+SpeechRecognition 
 pyttsx3
-speech_recognition==3.8.1
+Flask
+Gunicorn
+wit
+flask_cors
+PyAudio
+pyaudio-wheels
