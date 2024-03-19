@@ -1,5 +1,5 @@
 Flask==2.0.2
-flask-cors==3.1.1
+flask-cors==4.0.0
 wit==7.0.0
 pyttsx3==2.90
 speech_recognition==3.8.1
