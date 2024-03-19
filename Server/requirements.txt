@@ -6,3 +6,4 @@ wit
 flask_cors
 PyAudio
 pyaudio-wheels
+PyAudio==0.2.11
