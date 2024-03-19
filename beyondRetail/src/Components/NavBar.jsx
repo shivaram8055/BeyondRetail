@@ -9,7 +9,7 @@ const NavBar = () => {
   const location = useLocation();
   const [isSearchVisible, setIsSearchVisible] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
-  // const [isVisible, setIsVisible] = useState(true);
+  const [isVisible, setIsVisible] = useState(true);
 
   const timeout = setTimeout(() => {
     setIsVisible(false);

@@ -15,7 +15,7 @@ const SpeechBtn = () => {
   const processVoice = async () => {
     try {
       const responseFromSpeechReco = await fetch(
-        "http://localhost:5000/process_voice",
+        "http://127.0.0.1:5000/process_voice",
         {
           method: "POST",
         }

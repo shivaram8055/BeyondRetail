@@ -32,6 +32,7 @@ def speech_to_text():
 
 def text_to_speech(text):
     engine = pyttsx3.init()
+
     engine.say(text)
     engine.runAndWait()
 
