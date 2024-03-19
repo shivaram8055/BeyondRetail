@@ -2,4 +2,4 @@ Flask
 flask-cors
 wit
 pyttsx3
-speech_recognition
+speech_recognition==3.10.1
