@@ -34,7 +34,7 @@ def response_data(intent, entities):
                     
                 else:
                     return [f"Sorry, {product_name} is not found in our inventory."]
-            return ["I'm sorry, I couldn't understand which product you're looking for."]
+            return ["I'm sorry, I couldn't understand which product you're looking for. Start again"]
 
     elif intent == 'orderProduct':
         # Extracting product_name from the provided entities
