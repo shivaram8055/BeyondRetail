@@ -22,6 +22,7 @@ const App = () => {
       <Provider store={Store}>
         <Router>
           <NavBar />
+          <SpeechBtn />
 
           <Routes>
             <Route path="/" element={<HomePage />} />
