@@ -1,0 +1,36 @@
+{
+    "name": "page",
+    "roles": [
+        "page"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "cart",
+            "synonyms": [
+                "cart"
+            ]
+        },
+        {
+            "keyword": "home page",
+            "synonyms": [
+                "home page"
+            ]
+        },
+        {
+            "keyword": "products",
+            "synonyms": [
+                "products"
+            ]
+        },
+        {
+            "keyword": "sign in",
+            "synonyms": [
+                "sign in"
+            ]
+        }
+    ]
+}

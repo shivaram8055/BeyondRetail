@@ -1,0 +1,42 @@
+{
+    "name": "categoryName",
+    "roles": [
+        "categoryName"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "cameras",
+            "synonyms": [
+                "cameras"
+            ]
+        },
+        {
+            "keyword": "earphones",
+            "synonyms": [
+                "earphones"
+            ]
+        },
+        {
+            "keyword": "gamming products",
+            "synonyms": [
+                "gamming products"
+            ]
+        },
+        {
+            "keyword": "laptops",
+            "synonyms": [
+                "laptops"
+            ]
+        },
+        {
+            "keyword": "mobiles",
+            "synonyms": [
+                "mobiles"
+            ]
+        }
+    ]
+}

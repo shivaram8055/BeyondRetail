@@ -1,0 +1,6 @@
+{
+    "name": "orderPreviousProduct",
+    "entities": [
+        "page:page"
+    ]
+}

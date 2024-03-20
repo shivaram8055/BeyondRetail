@@ -1,0 +1,5096 @@
+{
+    "utterances": [
+        {
+            "text": "Add the Lenovo Intel Core i7 laptop to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 35,
+                    "body": "Lenovo Intel Core i7 laptop",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the aplle iphone 13 to my cart",
+            "entities": [],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the apple airpods pro to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 25,
+                    "body": "apple airpods pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the apple iphone 12 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 23,
+                    "body": "apple iphone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the apple iphone 14 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 23,
+                    "body": "apple iphone 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the apple iphone 15 plus to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 28,
+                    "body": "apple iphone 15 plus",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the apple iphone 15 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 23,
+                    "body": "apple iphone 15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the apple iphone 33 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 23,
+                    "body": "apple iphone 33",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the asus vivobook s15 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 25,
+                    "body": "asus vivobook s15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the call of duty to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 20,
+                    "body": "call of duty",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the google pixel 8 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 22,
+                    "body": "google pixel 8",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the hp to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 10,
+                    "body": "hp",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the hp victus to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 17,
+                    "body": "hp victus",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the infinix hot 20 play to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 27,
+                    "body": "infinix hot 20 play",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the infinix note 12i to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 24,
+                    "body": "infinix note 12i",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the infinix zerobook to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 24,
+                    "body": "infinix zerobook",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the iphone 11 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 17,
+                    "body": "iphone 11",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the iphone 12 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 17,
+                    "body": "iphone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the iphone 13 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 17,
+                    "body": "iphone 13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the iphone 14 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 17,
+                    "body": "iphone 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the iphone 15 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 17,
+                    "body": "iphone 15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the iphone 17 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 17,
+                    "body": "iphone 17",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the iphone 19 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 17,
+                    "body": "iphone 19",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the last item to my cart",
+            "entities": [],
+            "traits": [],
+            "intent": "orderPreviousProduct"
+        },
+        {
+            "text": "Add the last one to my cart, please",
+            "entities": [],
+            "traits": [],
+            "intent": "orderPreviousProduct"
+        },
+        {
+            "text": "Add the lenovo loq to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 18,
+                    "body": "lenovo loq",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the motorola e13 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 20,
+                    "body": "motorola e13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the motorola g52 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 20,
+                    "body": "motorola g52",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the motorola g62 5g to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 23,
+                    "body": "motorola g62 5g",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the msi gf63 thin to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 22,
+                    "body": "msi gf63 thin ",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the msi modern 14 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 21,
+                    "body": "msi modern 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the msi pulse 17 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 11,
+                    "body": "msi",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the nothing phone 2 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 23,
+                    "body": "nothing phone 2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the nothing phone to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 21,
+                    "body": "nothing phone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the oppo reno 10 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 20,
+                    "body": "oppo reno 10",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the oppo reno8t 5g to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 22,
+                    "body": "oppo reno8t 5g",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the poco c31 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 16,
+                    "body": "poco c31",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the poco m4 pro to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 19,
+                    "body": "poco m4 pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the previous item to my order",
+            "entities": [],
+            "traits": [],
+            "intent": "orderPreviousProduct"
+        },
+        {
+            "text": "Add the ps5 digital standalone to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 30,
+                    "body": "ps5 digital standalone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the realme 9i 5g to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 20,
+                    "body": "realme 9i 5g",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the realme c30 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 18,
+                    "body": "realme c30",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the realme narzo 50 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 23,
+                    "body": "realme narzo 50",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the redmi 9i sport to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 22,
+                    "body": "redmi 9i sport",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the redmi note 11s to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 22,
+                    "body": "redmi note 11s",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the samsung galaxy f04 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 26,
+                    "body": "samsung galaxy f04",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the samsung galaxy m13 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 26,
+                    "body": "samsung galaxy m13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the samsung galaxy m33 5g to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 29,
+                    "body": "samsung galaxy m33 5g",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the samsung galaxy s20 fe to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 29,
+                    "body": "samsung galaxy s20 fe",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the samsung galaxy s20 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 27,
+                    "body": "samsung galaxy s20 ",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the samsung galaxy s21 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 26,
+                    "body": "samsung galaxy s21",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the samsung galaxy s23 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 26,
+                    "body": "samsung galaxy s23",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the samsung galaxy s23 ultra to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 32,
+                    "body": "samsung galaxy s23 ultra",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the samsung galaxy s24 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 26,
+                    "body": "samsung galaxy s24",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the samsung galaxy s24 ultra to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 32,
+                    "body": "samsung galaxy s24 ultra",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the samsung galaxy s25 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 26,
+                    "body": "samsung galaxy s25",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the samsung gt-e 1215 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 25,
+                    "body": "samsung gt-e 1215",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the samsung guru music 2 to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 29,
+                    "body": "samsung guru music 2 ",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the sony ef-c700n to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 21,
+                    "body": "sony ef-c700n",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the vivo t1 44w to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 19,
+                    "body": "vivo t1 44w",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Add the vivo t1x to my cart",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 8,
+                    "end": 16,
+                    "body": "vivo t1x",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "Can you add the last product to my cart",
+            "entities": [],
+            "traits": [],
+            "intent": "orderPreviousProduct"
+        },
+        {
+            "text": "Can you order the previous product?",
+            "entities": [],
+            "traits": [],
+            "intent": "orderPreviousProduct"
+        },
+        {
+            "text": "I'd like to order the last item",
+            "entities": [],
+            "traits": [],
+            "intent": "orderPreviousProduct"
+        },
+        {
+            "text": "Order the item from my last query",
+            "entities": [],
+            "traits": [],
+            "intent": "orderPreviousProduct"
+        },
+        {
+            "text": "Order the last product",
+            "entities": [],
+            "traits": [],
+            "intent": "orderPreviousProduct"
+        },
+        {
+            "text": "Order the product I asked about earlier",
+            "entities": [],
+            "traits": [],
+            "intent": "orderPreviousProduct"
+        },
+        {
+            "text": "Order what I asked about before.",
+            "entities": [],
+            "traits": [],
+            "intent": "orderPreviousProduct"
+        },
+        {
+            "text": "Show me the latest cameras",
+            "entities": [
+                {
+                    "entity": "categoryName:categoryName",
+                    "start": 19,
+                    "end": 26,
+                    "body": "cameras",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "browseProducts"
+        },
+        {
+            "text": "Show me the latest earphones",
+            "entities": [
+                {
+                    "entity": "categoryName:categoryName",
+                    "start": 19,
+                    "end": 28,
+                    "body": "earphones",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "browseProducts"
+        },
+        {
+            "text": "Show me the latest gamming products",
+            "entities": [
+                {
+                    "entity": "categoryName:categoryName",
+                    "start": 19,
+                    "end": 35,
+                    "body": "gamming products",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "browseProducts"
+        },
+        {
+            "text": "Show me the latest laptops",
+            "entities": [
+                {
+                    "entity": "categoryName:categoryName",
+                    "start": 18,
+                    "end": 26,
+                    "body": " laptops",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "browseProducts"
+        },
+        {
+            "text": "Show me the latest mobiles",
+            "entities": [
+                {
+                    "entity": "categoryName:categoryName",
+                    "start": 19,
+                    "end": 26,
+                    "body": "mobiles",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "browseProducts"
+        },
+        {
+            "text": "Tell me about Samsung Galaxy s21 Fe",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 35,
+                    "body": "Samsung Galaxy s21 Fe",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the  mi 10",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 41,
+                    "end": 46,
+                    "body": "mi 10",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the Modern Warfare III PS5",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 62,
+                    "body": "Modern Warfare III PS5",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the Sony Marvel's Spider-Man(PS5)",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 69,
+                    "body": "Sony Marvel's Spider-Man(PS5)",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the acer nitro 5",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 52,
+                    "body": "acer nitro 5",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the acer predator neo",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 57,
+                    "body": "acer predator neo",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the acer travelmate p2",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 58,
+                    "body": "acer travelmate p2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the apple airpods pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 57,
+                    "body": "apple airpods pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the apple iphone 12",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 55,
+                    "body": "apple iphone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the apple iphone 14",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 55,
+                    "body": "apple iphone 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the apple iphone 14 plus",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 60,
+                    "body": "apple iphone 14 plus",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the apple iphone 15",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 55,
+                    "body": "apple iphone 15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the asus rog strix g16",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 58,
+                    "body": "asus rog strix g16",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the asus vivobook s15",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 57,
+                    "body": "asus vivobook s15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the asus zenbook s 13",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 57,
+                    "body": "asus zenbook s 13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the canon eos 1500d dslr",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 60,
+                    "body": "canon eos 1500d dslr",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the canon eos 3000d dslr",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 60,
+                    "body": "canon eos 3000d dslr",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the canon powershot v10",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 59,
+                    "body": "canon powershot v10",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the dell inspiron 5430",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 58,
+                    "body": "dell inspiron 5430",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the google pixel 8",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 54,
+                    "body": "google pixel 8",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the google pixel buds pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 59,
+                    "body": "google pixel buds p",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the hp",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 42,
+                    "body": "hp",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the hp victus",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 49,
+                    "body": "hp victus",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the infinix zerobook 13",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 59,
+                    "body": "infinix zerobook 13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the iphone 12",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 49,
+                    "body": "iphone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the lenovo",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 46,
+                    "body": "lenovo",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the lenovo loq intel",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 56,
+                    "body": "lenovo loq intel",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the msi gf63",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 48,
+                    "body": "msi gf63",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the msi gf63 thin",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 53,
+                    "body": "msi gf63 thin",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the msi gs66",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 48,
+                    "body": "msi gs66",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the msi katana 15",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 53,
+                    "body": "msi katana 15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the msi katana 17",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 53,
+                    "body": "msi katana 17",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the msi modern 14",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 53,
+                    "body": "msi modern 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the msi pulse 17",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 52,
+                    "body": "msi pulse 17",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the nikon coolpix p1000",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 59,
+                    "body": "nikon coolpix p1000",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the nikon coolpix p950",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 39,
+                    "end": 58,
+                    "body": " nikon coolpix p950",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the nothing phone",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 53,
+                    "body": "nothing phone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the oppo reno 10",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 52,
+                    "body": "oppo reno 10",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the ps5 digital standalone",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 62,
+                    "body": "ps5 digital standalone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the samsung galaxy book 3",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 61,
+                    "body": "samsung galaxy book 3",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the samsung galaxy buds 2",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 61,
+                    "body": "samsung galaxy buds 2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the samsung galaxy buds 2 pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 65,
+                    "body": "samsung galaxy buds 2 pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the samsung galaxy s21 fe",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 39,
+                    "end": 61,
+                    "body": " samsung galaxy s21 fe",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the samsung galaxy s22",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 58,
+                    "body": "samsung galaxy s22",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the sony dualsense edge wireless",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 68,
+                    "body": "sony dualsense edge wireless",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the sony wf-c700n",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 53,
+                    "body": "sony wf-c700n",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the Specifications of the sony zv-1f vlog",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 40,
+                    "end": 55,
+                    "body": "sony zv-1f vlog",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the  apple iphone 14",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 35,
+                    "end": 50,
+                    "body": "apple iphone 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the APPLE Iphone 12",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 33,
+                    "end": 49,
+                    "body": " APPLE Iphone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the Apple iphone 14",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 49,
+                    "body": "Apple iphone 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the Nothing Phone",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 33,
+                    "end": 47,
+                    "body": " Nothing Phone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the OPPO Reno10",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 45,
+                    "body": "OPPO Reno10",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the Samsung Galaxy S21 FE",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 55,
+                    "body": "Samsung Galaxy S21 FE",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the Samsung galaxy s21 fe",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 55,
+                    "body": "Samsung galaxy s21 fe",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the Samsung galaxy s23 ultra",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 58,
+                    "body": "Samsung galaxy s23 ultra",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the acer nitro 5",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 46,
+                    "body": "acer nitro 5",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the apple  airpods pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 52,
+                    "body": "apple  airpods pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the apple iphone 10",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 49,
+                    "body": "apple iphone 10",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the apple iphone 11",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 49,
+                    "body": "apple iphone 11",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the apple iphone 12",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 49,
+                    "body": "apple iphone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the apple iphone 13",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 49,
+                    "body": "apple iphone 13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the apple iphone 14",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 49,
+                    "body": "apple iphone 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the apple iphone 14 plus",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 54,
+                    "body": "apple iphone 14 plus",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the apple iphone 15",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 49,
+                    "body": "apple iphone 15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the apple iphone 33",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 49,
+                    "body": "apple iphone 33",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the asus vivobook s15",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 51,
+                    "body": "asus vivobook s15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the call of duty",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 46,
+                    "body": "call of duty",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "browseProducts"
+        },
+        {
+            "text": "Tell me about the features of the dell inspiron",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 47,
+                    "body": "dell inspiron",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the google pixel 8",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 48,
+                    "body": "google pixel 8",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the google pixel buds pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 55,
+                    "body": "google pixel buds pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the hp",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 36,
+                    "body": "hp",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the hp victus",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 43,
+                    "body": "hp victus",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the infinix hot 20 play",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 53,
+                    "body": "infinix hot 20 play",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the infinix note 12i",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 50,
+                    "body": "infinix note 12i",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the infinix zerobook",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 50,
+                    "body": "infinix zerobook",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the infix smart 6 hd",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 50,
+                    "body": "infix smart 6 hd",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the iphone 11",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 33,
+                    "end": 43,
+                    "body": " iphone 11",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the iphone 12",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 43,
+                    "body": "iphone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the iphone 13",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 42,
+                    "body": "iphone 1",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the iphone 14",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 43,
+                    "body": "iphone 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the iphone 15",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 43,
+                    "body": "iphone 15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the iphone 16",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 43,
+                    "body": "iphone 16",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the iphone 17",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 33,
+                    "end": 43,
+                    "body": " iphone 17",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the iphone 18",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 43,
+                    "body": "iphone 18",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the iphone 19",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 43,
+                    "body": "iphone 19",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the iphone 20",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 43,
+                    "body": "iphone 20",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the iphone 21",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 43,
+                    "body": "iphone 21",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the lenovo loq",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 44,
+                    "body": "lenovo loq",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the motorola e13",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 46,
+                    "body": "motorola e13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the motorola g31",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 46,
+                    "body": "motorola g31",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the motorola g52",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 46,
+                    "body": "motorola g52",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the motorola g62 5g",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 49,
+                    "body": "motorola g62 5g",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the msi gf63 thin",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 42,
+                    "body": "msi gf63",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the msi katana 17",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 47,
+                    "body": "msi katana 17",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the msi modern 14",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 47,
+                    "body": "msi modern 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the msi pulse 17",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 46,
+                    "body": "msi pulse 17",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the nothing phone",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 47,
+                    "body": "nothing phone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the oppo reno 10",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 46,
+                    "body": "oppo reno 10",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the oppo reno8t 5g",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 48,
+                    "body": "oppo reno8t 5g",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the poco c31",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 42,
+                    "body": "poco c31",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the poco m4 pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 45,
+                    "body": "poco m4 pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the ps5 digital standalone",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 56,
+                    "body": "ps5 digital standalone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the realme 9i 5g",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 46,
+                    "body": "realme 9i 5g",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the realme c30",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 44,
+                    "body": "realme c30",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the realme c30s",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 45,
+                    "body": "realme c30s",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the realme narzo 50",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 49,
+                    "body": "realme narzo 50",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the redmi 10",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 42,
+                    "body": "redmi 10",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the redmi 9i sport",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 48,
+                    "body": "redmi 9i sport",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the redmi note 11s",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 48,
+                    "body": "redmi note 11s",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samasung galaxy s24 ultra",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 59,
+                    "body": "samasung galaxy s24 ultra",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samsung galaxy buds 2",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 55,
+                    "body": "samsung galaxy buds 2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samsung galaxy buds 2 pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 59,
+                    "body": "samsung galaxy buds 2 pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samsung galaxy f04",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 52,
+                    "body": "samsung galaxy f04",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samsung galaxy f13",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 52,
+                    "body": "samsung galaxy f13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samsung galaxy m13",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 52,
+                    "body": "samsung galaxy m13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samsung galaxy m33 5g",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 55,
+                    "body": "samsung galaxy m33 5g",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samsung galaxy s19",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 53,
+                    "body": "samsung galaxy s19",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samsung galaxy s21",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 52,
+                    "body": "samsung galaxy s21",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samsung galaxy s22",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 52,
+                    "body": "samsung galaxy s22",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samsung galaxy s22 ultra",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 58,
+                    "body": "samsung galaxy s22 ultra",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samsung galaxy s23",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 33,
+                    "end": 53,
+                    "body": " samsung galaxy s23",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samsung galaxy s23 ultra",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 58,
+                    "body": "samsung galaxy s23 ultra",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samsung galaxy s24",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 53,
+                    "body": "samsung galaxy s24",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samsung galaxy s25",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 52,
+                    "body": "samsung galaxy s25",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the samsung guru music 2",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 54,
+                    "body": "samsung guru music 2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the sony dualsense edge wire less controller",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 74,
+                    "body": "sony dualsense edge wire less controller",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the sony marvels's Spider-man",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 59,
+                    "body": "sony marvels's Spider-man",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the sony wf-c700n",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 47,
+                    "body": "sony wf-c700n",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the vivo t1 44w",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 33,
+                    "end": 45,
+                    "body": " vivo t1 44w",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me about the features of the vivo t1x",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 34,
+                    "end": 42,
+                    "body": "vivo t1x",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me the Specifications of Nothing Phone",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 30,
+                    "end": 43,
+                    "body": "Nothing Phone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "Tell me the features of the nothing phone 2",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 28,
+                    "end": 43,
+                    "body": "nothing phone 2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "buy acer nitro 5",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 16,
+                    "body": "acer nitro 5",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy acer predator neo",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 21,
+                    "body": "acer predator neo",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy acer travelmate p2",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 22,
+                    "body": "acer travelmate p2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy apple airpods pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 21,
+                    "body": "apple airpods pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy apple iphone 12",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 19,
+                    "body": "apple iphone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy apple iphone 14",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 19,
+                    "body": "apple iphone 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy apple iphone 14 plus",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 24,
+                    "body": "apple iphone 14 plus",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy apple iphone 15",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 19,
+                    "body": "apple iphone 15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "buy apple ipone 12",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 18,
+                    "body": "apple ipone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy asus rog strix g16",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 22,
+                    "body": "asus rog strix g16",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy asus vivobook s15",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 21,
+                    "body": "asus vivobook s15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy asus zenbook s 13",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 21,
+                    "body": "asus zenbook s 13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy canon powershot v10",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 23,
+                    "body": "canon powershot v10",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy dell inspiron 5430",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 22,
+                    "body": "dell inspiron 5430",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy google pixel 8",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 18,
+                    "body": "google pixel 8",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy google pixel buds pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 25,
+                    "body": "google pixel buds pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy hp victus",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 13,
+                    "body": "hp victus",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy infinix xerobook 13",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 23,
+                    "body": "infinix xerobook 13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy iphone 12",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 13,
+                    "body": "iphone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy lenovo",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 10,
+                    "body": "lenovo",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy lenovo loq intel",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 20,
+                    "body": "lenovo loq intel",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy msi gf63",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 12,
+                    "body": "msi gf63",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy msi gf63 thin",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 17,
+                    "body": "msi gf63 thin",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy msi katana 15",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 17,
+                    "body": "msi katana 15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy msi katana 17",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 17,
+                    "body": "msi katana 17",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy msi modern 14",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 17,
+                    "body": "msi modern 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy nikon coolpix p950",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 22,
+                    "body": "nikon coolpix p950",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy nothing phone",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 17,
+                    "body": "nothing phone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy oppo reno 10",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 16,
+                    "body": "oppo reno 10",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy ps5 digital standalone",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 26,
+                    "body": "ps5 digital standalone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy samsung galaxy book3",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 24,
+                    "body": "samsung galaxy book3",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy samsung galaxy buds 2",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 25,
+                    "body": "samsung galaxy buds 2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy samsung galaxy buds 2 pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 29,
+                    "body": "samsung galaxy buds 2 pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy samsung galaxy s21 fe",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 25,
+                    "body": "samsung galaxy s21 fe",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy samsung galaxy s22",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 22,
+                    "body": "samsung galaxy s22",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy samsung galaxy s23 ultra",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 28,
+                    "body": "samsung galaxy s23 ultra",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "buy sony dualsense edge wireless",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 4,
+                    "end": 32,
+                    "body": "sony dualsense edge wireless",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "addToCart"
+        },
+        {
+            "text": "do you have acer nitro 5",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 24,
+                    "body": "acer nitro 5",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have acer predator neo",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 29,
+                    "body": "acer predator neo",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have acer travelmate p2",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 30,
+                    "body": "acer travelmate p2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have apple airpods pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 29,
+                    "body": "apple airpods pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have apple iphone 12",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 27,
+                    "body": "apple iphone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have apple iphone 14",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 27,
+                    "body": "apple iphone 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have apple iphone 14 plus",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 11,
+                    "end": 32,
+                    "body": " apple iphone 14 plus",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have apple iphone 15",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 27,
+                    "body": "apple iphone 15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have asus rog strix g16",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 30,
+                    "body": "asus rog strix g16",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have asus vivibook s15",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 29,
+                    "body": "asus vivibook s15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have asus zenbook s13",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 28,
+                    "body": "asus zenbook s13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have canon eos 1500d dslr",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 32,
+                    "body": "canon eos 1500d dslr",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have canon powershot v10",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 31,
+                    "body": "canon powershot v10",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have dell inspiron 5430",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 30,
+                    "body": "dell inspiron 5430",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have google pixel 8",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 26,
+                    "body": "google pixel 8",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have google pixel buds pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 33,
+                    "body": "google pixel buds pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have hp victus",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 21,
+                    "body": "hp victus",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have infinix zerobook 13",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 31,
+                    "body": "infinix zerobook 13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have iphone 12",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 11,
+                    "end": 21,
+                    "body": " iphone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have lenovo",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 18,
+                    "body": "lenovo",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have lenovo loq intel",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 27,
+                    "body": "lenovo loq inte",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have msi gf63",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 20,
+                    "body": "msi gf63",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have msi gf63 thin",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 25,
+                    "body": "msi gf63 thin",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have msi katana 15",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 25,
+                    "body": "msi katana 15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have msi katana 17",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 25,
+                    "body": "msi katana 17",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have msi modern 14",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 25,
+                    "body": "msi modern 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have nikon coolpix p950",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 30,
+                    "body": "nikon coolpix p950",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have nothing phone",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 25,
+                    "body": "nothing phone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have oppo reno 10",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 24,
+                    "body": "oppo reno 10",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have ps5 digital standalone",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 34,
+                    "body": "ps5 digital standalone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have samsung galaxy book 3",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 33,
+                    "body": "samsung galaxy book 3",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have samsung galaxy buds 2",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 33,
+                    "body": "samsung galaxy buds 2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have samsung galaxy buds 2 pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 37,
+                    "body": "samsung galaxy buds 2 pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have samsung galaxy s21 fe",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 33,
+                    "body": "samsung galaxy s21 fe",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have samsung galaxy s22",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 30,
+                    "body": "samsung galaxy s22",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have samsung galaxy s23 ultra",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 36,
+                    "body": "samsung galaxy s23 ultra",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "do you have sony dualsense edge wireless",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 12,
+                    "end": 40,
+                    "body": "sony dualsense edge wireless",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "go to cart",
+            "entities": [
+                {
+                    "entity": "page:page",
+                    "start": 6,
+                    "end": 10,
+                    "body": "cart",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "page"
+        },
+        {
+            "text": "go to home page",
+            "entities": [
+                {
+                    "entity": "page:page",
+                    "start": 6,
+                    "end": 15,
+                    "body": "home page",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "page"
+        },
+        {
+            "text": "go to products",
+            "entities": [
+                {
+                    "entity": "page:page",
+                    "start": 6,
+                    "end": 14,
+                    "body": "products",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "orderPreviousProduct"
+        },
+        {
+            "text": "is acer nitro 5 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 15,
+                    "body": "acer nitro 5",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is acer predator neo available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 20,
+                    "body": "acer predator neo",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is acer travelMate p2 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 21,
+                    "body": "acer travelMate p2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is apple airpods pro available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 20,
+                    "body": "apple airpods pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is apple iphone 12 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 18,
+                    "body": "apple iphone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is apple iphone 14 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 18,
+                    "body": "apple iphone 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is apple iphone 14 plus available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 24,
+                    "body": "apple iphone 14 plus ",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is apple iphone 15 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 18,
+                    "body": "apple iphone 15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is asus rog strix g16 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 21,
+                    "body": "asus rog strix g16",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is asus vivobook s15 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 20,
+                    "body": "asus vivobook s15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is asus zenbook s 13 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 20,
+                    "body": "asus zenbook s 13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is canon eos 1500d dslr available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 23,
+                    "body": "canon eos 1500d dslr",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is canon powershot v10 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 22,
+                    "body": "canon powershot v10",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is dell inspiron 5430 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 21,
+                    "body": "dell inspiron 5430",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is google pixel 8 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 17,
+                    "body": "google pixel 8",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is google pixel buds pro available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 24,
+                    "body": "google pixel buds pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is hp victus available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 12,
+                    "body": "hp victus",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is infinix zerobook 13 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 22,
+                    "body": "infinix zerobook 13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is iphone 12 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 12,
+                    "body": "iphone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is lenovo available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 9,
+                    "body": "lenovo",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is lenovo loq intel available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 19,
+                    "body": "lenovo loq intel",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is msi gf63 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 11,
+                    "body": "msi gf63",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is msi gf63 thin available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 16,
+                    "body": "msi gf63 thin",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is msi gs66 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 11,
+                    "body": "msi gs66",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is msi katana 15 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 16,
+                    "body": "msi katana 15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is msi katana 17 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 16,
+                    "body": "msi katana 17",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is msi modern 14 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 16,
+                    "body": "msi modern 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is msi pulse 17 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 15,
+                    "body": "msi pulse 17",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is nikon coolpix p950 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 21,
+                    "body": "nikon coolpix p950",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is nothing phone available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 16,
+                    "body": "nothing phone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is oppo reno 10 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 15,
+                    "body": "oppo reno 10",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is ps5 digital standalone available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 25,
+                    "body": "ps5 digital standalone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is samsung galaxy book 3 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 24,
+                    "body": "samsung galaxy book 3",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is samsung galaxy buds 2 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 24,
+                    "body": "samsung galaxy buds 2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is samsung galaxy s21 fe available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 25,
+                    "body": "samsung galaxy s21 fe ",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is samsung galaxy s22 available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 21,
+                    "body": "samsung galaxy s22",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is samsung galaxy s23 ultra available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 28,
+                    "body": "samsung galaxy s23 ultra ",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is smasung galaxy buds 2 pro available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 28,
+                    "body": "smasung galaxy buds 2 pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "is sony zv-1f vlog available",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 3,
+                    "end": 18,
+                    "body": "sony zv-1f vlog",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productAvailability"
+        },
+        {
+            "text": "navigate to cart",
+            "entities": [
+                {
+                    "entity": "page:page",
+                    "start": 12,
+                    "end": 16,
+                    "body": "cart",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "page"
+        },
+        {
+            "text": "navigate to home page",
+            "entities": [
+                {
+                    "entity": "page:page",
+                    "start": 12,
+                    "end": 21,
+                    "body": "home page",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "page"
+        },
+        {
+            "text": "navigate to products",
+            "entities": [
+                {
+                    "entity": "page:page",
+                    "start": 12,
+                    "end": 20,
+                    "body": "products",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "page"
+        },
+        {
+            "text": "open cart",
+            "entities": [
+                {
+                    "entity": "page:page",
+                    "start": 5,
+                    "end": 9,
+                    "body": "cart",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "page"
+        },
+        {
+            "text": "open home page",
+            "entities": [
+                {
+                    "entity": "page:page",
+                    "start": 5,
+                    "end": 14,
+                    "body": "home page",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "page"
+        },
+        {
+            "text": "open products",
+            "entities": [
+                {
+                    "entity": "page:page",
+                    "start": 5,
+                    "end": 13,
+                    "body": "products",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "page"
+        },
+        {
+            "text": "open sign in",
+            "entities": [
+                {
+                    "entity": "page:page",
+                    "start": 5,
+                    "end": 12,
+                    "body": "sign in",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "page"
+        },
+        {
+            "text": "tell me about  specifications of samsung galaxy s23 ultra",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 33,
+                    "end": 57,
+                    "body": "samsung galaxy s23 ultra",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about Sony Marvel's Spider-Man(PS5)",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 43,
+                    "body": "Sony Marvel's Spider-Man(PS5)",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about acer nitro 5",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 26,
+                    "body": "acer nitro 5",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about acer predator neo",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 31,
+                    "body": "acer predator neo",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about acer travel mate p2",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 33,
+                    "body": "acer travel mate p2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about apple airpods pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 31,
+                    "body": "apple airpods pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about apple iphone 12",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 29,
+                    "body": "apple iphone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about apple iphone 14",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 29,
+                    "body": "apple iphone 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about apple iphone 14 plus",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 34,
+                    "body": "apple iphone 14 plus",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about apple iphone 15",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 29,
+                    "body": "apple iphone 15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about asus rog strix g16",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 32,
+                    "body": "asus rog strix g16",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about asus vivobook s15",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 31,
+                    "body": "asus vivobook s15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about asus zenbook s 13",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 31,
+                    "body": "asus zenbook s 13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about canon eos 1500d dslr",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 34,
+                    "body": "canon eos 1500d dslr",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about dell inspiron 5430",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 32,
+                    "body": "dell inspiron 5430",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about features of samsung galaxy s23 ultra",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 26,
+                    "end": 50,
+                    "body": "samsung galaxy s23 ultra",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about google pixel 8",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 28,
+                    "body": "google pixel 8",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about google pixel buds pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 35,
+                    "body": "google pixel buds pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about hp victus",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 23,
+                    "body": "hp victus",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about infinix zerobook 13",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 13,
+                    "end": 33,
+                    "body": " infinix zerobook 13",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about iphone 12",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 23,
+                    "body": "iphone 12",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about lenovo",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 20,
+                    "body": "lenovo",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about lenovo loq intel",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 30,
+                    "body": "lenovo loq intel",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about msi gf63",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 22,
+                    "body": "msi gf63",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about msi gf63 thin",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 28,
+                    "body": "msi gf63 thin",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about msi gs66",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 22,
+                    "body": "msi gs66",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about msi katana 15",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 27,
+                    "body": "msi katana 15",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about msi katana 17",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 27,
+                    "body": "msi katana 17",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "browseProducts"
+        },
+        {
+            "text": "tell me about msi modern 14",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 27,
+                    "body": "msi modern 14",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about msi pulse 17",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 17,
+                    "body": "msi",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about nikon coolpix p950",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 32,
+                    "body": "nikon coolpix p950",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about nothing phone",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 27,
+                    "body": "nothing phone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "browseProducts"
+        },
+        {
+            "text": "tell me about oppo reno 10",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 26,
+                    "body": "oppo reno 10",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about ps5 digital standalone",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 36,
+                    "body": "ps5 digital standalone",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about samsung galaxy book 3",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 35,
+                    "body": "samsung galaxy book 3",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about samsung galaxy buds 2",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 35,
+                    "body": "samsung galaxy buds 2",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about samsung galaxy buds 2 pro",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 39,
+                    "body": "samsung galaxy buds 2 pro",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about samsung galaxy s21 fe",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 35,
+                    "body": "samsung galaxy s21 fe",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about samsung galaxy s22",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 32,
+                    "body": "samsung galaxy s22",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about samsung galaxy s23 ultra",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 38,
+                    "body": "samsung galaxy s23 ultra",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about samsung galxy s23 ultra",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 37,
+                    "body": "samsung galxy s23 ultra",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        },
+        {
+            "text": "tell me about sony zv-1f vlog",
+            "entities": [
+                {
+                    "entity": "productName:productName",
+                    "start": 14,
+                    "end": 29,
+                    "body": "sony zv-1f vlog",
+                    "entities": []
+                }
+            ],
+            "traits": [],
+            "intent": "productDetails"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "name": "addToCart",
+    "entities": [
+        "productName:productName"
+    ]
+}

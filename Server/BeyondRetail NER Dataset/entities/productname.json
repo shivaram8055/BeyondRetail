@@ -1,0 +1,690 @@
+{
+    "name": "productName",
+    "roles": [
+        "productName"
+    ],
+    "lookups": [
+        "free-text",
+        "keywords"
+    ],
+    "keywords": [
+        {
+            "keyword": "Lenovo Intel Core i7 laptop",
+            "synonyms": [
+                "lenovo intel core i7 laptop"
+            ]
+        },
+        {
+            "keyword": "Modern Warfare III PS5",
+            "synonyms": [
+                "modern warfare iii ps5"
+            ]
+        },
+        {
+            "keyword": "Nothing Phone",
+            "synonyms": [
+                "nothing phone"
+            ]
+        },
+        {
+            "keyword": "Samsung Galaxy S21 FE",
+            "synonyms": [
+                "samsung galaxy s21 fe"
+            ]
+        },
+        {
+            "keyword": "Sony Marvel's Spider-Man(PS5)",
+            "synonyms": [
+                "sony marvel's spider-man(ps5)"
+            ]
+        },
+        {
+            "keyword": "acer nitro 5",
+            "synonyms": [
+                "acer nitro 5"
+            ]
+        },
+        {
+            "keyword": "acer predator neo",
+            "synonyms": [
+                "acer predator neo"
+            ]
+        },
+        {
+            "keyword": "acer travel mate p2",
+            "synonyms": [
+                "acer travel mate p2",
+                "acer travelmate p2"
+            ]
+        },
+        {
+            "keyword": "acer travelmate p2",
+            "synonyms": [
+                "acer travelmate p2"
+            ]
+        },
+        {
+            "keyword": "apple  airpods pro",
+            "synonyms": [
+                "apple  airpods pro",
+                "apple airpods pro"
+            ]
+        },
+        {
+            "keyword": "apple iphone 10",
+            "synonyms": [
+                "apple iphone 1",
+                "apple iphone 10"
+            ]
+        },
+        {
+            "keyword": "apple iphone 11",
+            "synonyms": [
+                "apple iphone 11"
+            ]
+        },
+        {
+            "keyword": "apple iphone 12",
+            "synonyms": [
+                "apple iphone 12",
+                "apple ipone 12"
+            ]
+        },
+        {
+            "keyword": "apple iphone 13",
+            "synonyms": [
+                "apple iphone 13"
+            ]
+        },
+        {
+            "keyword": "apple iphone 14",
+            "synonyms": [
+                "apple iphone 14"
+            ]
+        },
+        {
+            "keyword": "apple iphone 14 plus",
+            "synonyms": [
+                "apple iphone 14 plus"
+            ]
+        },
+        {
+            "keyword": "apple iphone 15",
+            "synonyms": [
+                "apple iphone 15"
+            ]
+        },
+        {
+            "keyword": "apple iphone 15 plus",
+            "synonyms": [
+                "apple iphone 15 plus"
+            ]
+        },
+        {
+            "keyword": "apple iphone 33",
+            "synonyms": [
+                "apple iphone 33"
+            ]
+        },
+        {
+            "keyword": "asus rog strix g16",
+            "synonyms": [
+                "asus rog strix g16"
+            ]
+        },
+        {
+            "keyword": "asus vivobook s15",
+            "synonyms": [
+                "asus vivibook s15",
+                "asus vivobook s15"
+            ]
+        },
+        {
+            "keyword": "asus zenbook s 13",
+            "synonyms": [
+                "asus zenbook s 13",
+                "asus zenbook s13"
+            ]
+        },
+        {
+            "keyword": "call of duty",
+            "synonyms": [
+                "call of duty"
+            ]
+        },
+        {
+            "keyword": "canon eos 1500d dslr",
+            "synonyms": [
+                "canon eos 1500d dslr"
+            ]
+        },
+        {
+            "keyword": "canon eos 3000d dslr",
+            "synonyms": [
+                "canon eos 3000d dslr"
+            ]
+        },
+        {
+            "keyword": "canon powershot v10",
+            "synonyms": [
+                "canon powershot v10"
+            ]
+        },
+        {
+            "keyword": "dell inspiron",
+            "synonyms": [
+                "dell inspiron"
+            ]
+        },
+        {
+            "keyword": "dell inspiron 5430",
+            "synonyms": [
+                "dell inspiron 5430"
+            ]
+        },
+        {
+            "keyword": "google pixel 8",
+            "synonyms": [
+                "google pixel 8"
+            ]
+        },
+        {
+            "keyword": "google pixel buds pro",
+            "synonyms": [
+                "google pixel buds pro"
+            ]
+        },
+        {
+            "keyword": "hp",
+            "synonyms": [
+                "hp"
+            ]
+        },
+        {
+            "keyword": "hp victus",
+            "synonyms": [
+                "hp victus"
+            ]
+        },
+        {
+            "keyword": "infinix hot 20 play",
+            "synonyms": [
+                "infinix hot 20 play"
+            ]
+        },
+        {
+            "keyword": "infinix note 12i",
+            "synonyms": [
+                "infinix note 12i"
+            ]
+        },
+        {
+            "keyword": "infinix zerobook",
+            "synonyms": [
+                "infinix zerobook"
+            ]
+        },
+        {
+            "keyword": "infinix zerobook 13",
+            "synonyms": [
+                "infinix xerobook 13",
+                "infinix zerobook 13"
+            ]
+        },
+        {
+            "keyword": "infix smar",
+            "synonyms": [
+                "infix smar"
+            ]
+        },
+        {
+            "keyword": "infix smart 6 hd",
+            "synonyms": [
+                "infix smart 6 hd"
+            ]
+        },
+        {
+            "keyword": "iphone 11",
+            "synonyms": [
+                "iphone 11"
+            ]
+        },
+        {
+            "keyword": "iphone 12",
+            "synonyms": [
+                "iphone 12"
+            ]
+        },
+        {
+            "keyword": "iphone 13",
+            "synonyms": [
+                "iphone 13"
+            ]
+        },
+        {
+            "keyword": "iphone 14",
+            "synonyms": [
+                "iphone 14"
+            ]
+        },
+        {
+            "keyword": "iphone 15",
+            "synonyms": [
+                "iphone 15"
+            ]
+        },
+        {
+            "keyword": "iphone 16",
+            "synonyms": [
+                "iphone 16"
+            ]
+        },
+        {
+            "keyword": "iphone 17",
+            "synonyms": [
+                "iphone 17"
+            ]
+        },
+        {
+            "keyword": "iphone 18",
+            "synonyms": [
+                "iphone 18"
+            ]
+        },
+        {
+            "keyword": "iphone 19",
+            "synonyms": [
+                "iphone 19"
+            ]
+        },
+        {
+            "keyword": "iphone 20",
+            "synonyms": [
+                "iphone 20"
+            ]
+        },
+        {
+            "keyword": "iphone 21",
+            "synonyms": [
+                "iphone 21"
+            ]
+        },
+        {
+            "keyword": "lenovo",
+            "synonyms": [
+                "lenovo"
+            ]
+        },
+        {
+            "keyword": "lenovo loq",
+            "synonyms": [
+                "lenovo loq"
+            ]
+        },
+        {
+            "keyword": "lenovo loq intel",
+            "synonyms": [
+                "lenovo loq inte",
+                "lenovo loq intel"
+            ]
+        },
+        {
+            "keyword": "mi 10",
+            "synonyms": [
+                "mi 10"
+            ]
+        },
+        {
+            "keyword": "motor",
+            "synonyms": [
+                "motor"
+            ]
+        },
+        {
+            "keyword": "motorola e13",
+            "synonyms": [
+                "motorola e13"
+            ]
+        },
+        {
+            "keyword": "motorola g31",
+            "synonyms": [
+                "motorola g31"
+            ]
+        },
+        {
+            "keyword": "motorola g52",
+            "synonyms": [
+                "motorola g52"
+            ]
+        },
+        {
+            "keyword": "motorola g62 5g",
+            "synonyms": [
+                "motorola g62 5g"
+            ]
+        },
+        {
+            "keyword": "msi",
+            "synonyms": [
+                "msi"
+            ]
+        },
+        {
+            "keyword": "msi gf63",
+            "synonyms": [
+                "msi gf63"
+            ]
+        },
+        {
+            "keyword": "msi gf63 thin",
+            "synonyms": [
+                "msi gf63 thin"
+            ]
+        },
+        {
+            "keyword": "msi gs66",
+            "synonyms": [
+                "msi gs66"
+            ]
+        },
+        {
+            "keyword": "msi katana 15",
+            "synonyms": [
+                "msi katana 15"
+            ]
+        },
+        {
+            "keyword": "msi katana 17",
+            "synonyms": [
+                "msi katana 17"
+            ]
+        },
+        {
+            "keyword": "msi modern 14",
+            "synonyms": [
+                "msi modern 14"
+            ]
+        },
+        {
+            "keyword": "msi pulse 17",
+            "synonyms": [
+                "msi pulse 17"
+            ]
+        },
+        {
+            "keyword": "nikon coolpix p1000",
+            "synonyms": [
+                "nikon coolpix p1000"
+            ]
+        },
+        {
+            "keyword": "nikon coolpix p950",
+            "synonyms": [
+                "nikon coolpix p950"
+            ]
+        },
+        {
+            "keyword": "nothing phone 2",
+            "synonyms": [
+                "nothing phone 2"
+            ]
+        },
+        {
+            "keyword": "oppo reno 10",
+            "synonyms": [
+                "oppo reno 10"
+            ]
+        },
+        {
+            "keyword": "oppo reno8t 5g",
+            "synonyms": [
+                "oppo reno8t 5g"
+            ]
+        },
+        {
+            "keyword": "poco c31",
+            "synonyms": [
+                "poco c31"
+            ]
+        },
+        {
+            "keyword": "poco m4 pro",
+            "synonyms": [
+                "poco m4 pro"
+            ]
+        },
+        {
+            "keyword": "ps5 digital standalone",
+            "synonyms": [
+                "ps5 digital standalone"
+            ]
+        },
+        {
+            "keyword": "realme 9i 5g",
+            "synonyms": [
+                "realme 9i 5g"
+            ]
+        },
+        {
+            "keyword": "realme c30s",
+            "synonyms": [
+                "realme c30",
+                "realme c30s"
+            ]
+        },
+        {
+            "keyword": "realme narzo 50",
+            "synonyms": [
+                "realme narzo 50"
+            ]
+        },
+        {
+            "keyword": "redmi 10",
+            "synonyms": [
+                "redmi 10"
+            ]
+        },
+        {
+            "keyword": "redmi 9i sport",
+            "synonyms": [
+                "redmi 9i sport"
+            ]
+        },
+        {
+            "keyword": "redmi note 11s",
+            "synonyms": [
+                "redmi note 11s"
+            ]
+        },
+        {
+            "keyword": "samasung galaxy s24 ultra",
+            "synonyms": [
+                "samsung galaxy s24 ultra"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy 22 fe",
+            "synonyms": [
+                "samsung galaxy 22 fe"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy book 3",
+            "synonyms": [
+                "samsung galaxy book 3",
+                "samsung galaxy book3"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy buds 2",
+            "synonyms": [
+                "samsung galaxy buds 2"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy buds 2 pro",
+            "synonyms": [
+                "samsung galaxy buds 2 pro"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy f04",
+            "synonyms": [
+                "samsung galaxy f04"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy f13",
+            "synonyms": [
+                "samsung galaxy f13",
+                "samsung galaxy m13"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy m33 5g",
+            "synonyms": [
+                "samsung galaxy m33 5g"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy s19",
+            "synonyms": [
+                "samsung galaxy s19"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy s20",
+            "synonyms": [
+                "samsung galaxy s20"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy s20 fe",
+            "synonyms": [
+                "samsung galaxy s20 fe"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy s20 ultra",
+            "synonyms": [
+                "samsung galaxy s20 ultra"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy s21",
+            "synonyms": [
+                "samsung galaxy s21"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy s22",
+            "synonyms": [
+                "samsung galaxy s22"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy s22 ultra",
+            "synonyms": [
+                "samsung galaxy s22 ultra"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy s23",
+            "synonyms": [
+                "samsung galaxy s23"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy s23 ultra",
+            "synonyms": [
+                "samsung galaxy s23 ultra",
+                "samsung galxy s23 ultra"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy s24",
+            "synonyms": [
+                "samsung galaxy s24"
+            ]
+        },
+        {
+            "keyword": "samsung galaxy s25",
+            "synonyms": [
+                "samsung galaxy s25"
+            ]
+        },
+        {
+            "keyword": "samsung gt-e 1215",
+            "synonyms": [
+                "samsung gt-e 1215"
+            ]
+        },
+        {
+            "keyword": "samsung gt-e1215",
+            "synonyms": [
+                "samsung gt-e1215"
+            ]
+        },
+        {
+            "keyword": "samsung guru music 2",
+            "synonyms": [
+                "samsung guru music 2"
+            ]
+        },
+        {
+            "keyword": "smasung galaxy buds 2 pro",
+            "synonyms": [
+                "smasung galaxy buds 2 pro"
+            ]
+        },
+        {
+            "keyword": "sony dualsense edge wire less controller",
+            "synonyms": [
+                "sony dualsense edge wire less controller"
+            ]
+        },
+        {
+            "keyword": "sony dualsense edge wireless",
+            "synonyms": [
+                "sony dualsense edge wireless"
+            ]
+        },
+        {
+            "keyword": "sony ef-c700n",
+            "synonyms": [
+                "sony ef-c700n"
+            ]
+        },
+        {
+            "keyword": "sony marvels's Spider-man",
+            "synonyms": [
+                "sony marvels's spider-man"
+            ]
+        },
+        {
+            "keyword": "sony wf-c700n",
+            "synonyms": [
+                "sony wf-c700n"
+            ]
+        },
+        {
+            "keyword": "sony zv-1f vlog",
+            "synonyms": [
+                "sony zv-1f vlog"
+            ]
+        },
+        {
+            "keyword": "vivo t1 44w",
+            "synonyms": [
+                "vivo t1 44w"
+            ]
+        },
+        {
+            "keyword": "vivo t1x",
+            "synonyms": [
+                "vivo t1x"
+            ]
+        }
+    ]
+}

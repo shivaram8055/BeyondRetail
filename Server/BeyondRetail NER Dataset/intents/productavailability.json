@@ -1,0 +1,7 @@
+{
+    "name": "productAvailability",
+    "entities": [
+        "page:page",
+        "productName:productName"
+    ]
+}

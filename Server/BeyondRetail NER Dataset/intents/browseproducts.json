@@ -1,0 +1,7 @@
+{
+    "name": "browseProducts",
+    "entities": [
+        "categoryName:categoryName",
+        "productName:productName"
+    ]
+}

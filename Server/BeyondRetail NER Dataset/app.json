@@ -1,0 +1,7 @@
+{
+    "version": 20200513,
+    "zip-command": "zip ecommerce.zip ecommerce\/app.json ecommerce\/entities\/*.json ecommerce\/intents\/*.json ecommerce\/traits\/*.json ecommerce\/utterances\/*.json ecommerce\/composer\/*.json",
+    "name": "ecommerce",
+    "lang": "en",
+    "timezone": "America\/Los_Angeles"
+}
