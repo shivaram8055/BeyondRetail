@@ -10,7 +10,7 @@ load_dotenv()
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
-wit_client = Wit(os.getenv("WIT_AI_ACCESS_TOKEN"))
+wit_client = Wit("DHQVL5DPGYDSWD72KRTHFAS7GOWUSTYI")
 
 @app.route('/process_voice', methods=['POST'])
 def process_voice():
