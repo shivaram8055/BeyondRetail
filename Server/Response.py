@@ -29,7 +29,7 @@ def response_data(intent, entities):
             if check_availability(product_name, products_data):
                 product_details = get_product_details(product_name, products_data)
                 return [f"The requested {product_name} is available for {product_details['price']}",
-                    {"title": product_details['title'], "itemImg": product_details['itemImg'], "price": product_details['price']}]
+                    {"id":product_details["id"],"title": product_details['title'], "itemImg": product_details['itemImg'], "price": product_details['price']}]
                 
             else:
                 return [f"Sorry, {product_name} is not found in our inventory."]
@@ -43,7 +43,8 @@ def response_data(intent, entities):
             if check_availability(product_name, products_data):
                 product_details = get_product_details(product_name, products_data)
                 response_str = f"Order placed for {product_name.capitalize()}. Details: Title: {product_details['title'].capitalize()}, Price: {product_details['price']}"
-                return [response_str, {"title": product_details['title'], "itemImg": product_details['itemImg'], "price": product_details['price']}]
+                return [response_str,{"id":product_details["id"],"title": product_details['title'], "itemImg": product_details['itemImg'], "price": product_details['price']}]
+
             else:
                 return [f"Sorry, {product_name.capitalize()} is not found in our inventory.",'']
         return ["I'm sorry, I couldn't understand which product you want to order.",'']

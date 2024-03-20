@@ -35,7 +35,14 @@ const ProductDetails = ({ title, price, itemImg, specifications, onClose }) => {
           <h2 className="text-md">Price: {price}</h2>
           <button
             className="border md:p-2 p-1 rounded-lg bg-teal-300 text-teal-900 md:w-fit hover:text-teal-50 hover:bg-teal-400"
-            onClick={() => dispatch(addToCart({ title, price, itemImg }))}
+            onClick={() =>
+              dispatch(
+                addToCart(
+                  { title, price, itemImg },
+                  alert(`${title} added to Cart`)
+                )
+              )
+            }
           >
             Add to cart
           </button>

@@ -36,8 +36,9 @@ const SpeechBtn = () => {
           const title = productDetails["title"];
           const price = productDetails["price"];
           const itemImg = productDetails["itemImg"];
+          const id = productDetails["id"];
           console.log(title, price);
-          dispatch(addToCart({ title, price, itemImg }));
+          dispatch(addToCart({ id, title, price, itemImg }));
           redirectToExternalPage("/checkout");
         } else if (data["intent"] === "page") {
           const pageName = data["response_text"];

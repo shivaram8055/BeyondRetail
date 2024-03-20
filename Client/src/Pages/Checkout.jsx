@@ -42,7 +42,7 @@ const CheckOut = () => {
                       <button
                         className="border p-1 rounded-lg bg-teal-300 text-teal-900 w-32 hover:text-teal-50 hover:bg-teal-400"
                         onClick={() => {
-                          dispatch(removeFromCart({ title: item.title }));
+                          dispatch(removeFromCart({ id: item.id }));
                         }}
                       >
                         Remove
