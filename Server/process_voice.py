@@ -7,7 +7,7 @@ from Response import response_data
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
-wit_client = Wit("YXHDKJUMPW6DAQKFLU5REHMJGYCNCNAG")
+wit_client = Wit("DHQVL5DPGYDSWD72KRTHFAS7GOWUSTYI")
 
 @app.route('/process_voice', methods=['POST'])
 def process_voice():
@@ -17,19 +17,21 @@ def process_voice():
 
     # Using Wit.ai for intent and entity recognition
     wit_response = wit_client.message(voice_text)
-    print(wit_response)
+
+
 
     # Extract intent and entities from Wit.ai response
     intent = wit_response['intents'][0]['name'] if wit_response['intents'] else None
-    print(intent)
+    print("Intent: ",intent)
     entities = wit_response['entities']
-    print(entities)
+    print("Entities: ",entities)
 
     # Your business logic based on intent and entities
     response_text = response_data(intent, entities)
-    print(response_text)
-    
+    print("Response ",response_text)
     text_to_speech(response_text[0])
+    
+
 
     return jsonify({"user_input": voice_text, "response_text": response_text,"intent":intent})
 

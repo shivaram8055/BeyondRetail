@@ -23,47 +23,53 @@ def response_data(intent, entities):
 
     if intent == 'productAvailability':
         # Extracting product_name from the provided entities
-        product_name_list = entities.get('product_name:product_name', [])
-        if product_name_list:
-            product_name = product_name_list[0].get('value', None)
-            if product_name:
-                if check_availability(product_name, products_data):
-                    product_details = get_product_details(product_name, products_data)
-                    return [f"The requested {product_name} is available for {product_details['price']}",
-                        {"title": product_details['title'], "itemImg": product_details['itemImg'], "price": product_details['price']}]
-                    
-                else:
-                    return [f"Sorry, {product_name} is not found in our inventory."]
-            return ["I'm sorry, I couldn't understand which product you're looking for. Start again"]
+        product_name = entities['productName:productName'][0]['value']
+        
+        if product_name:
+            if check_availability(product_name, products_data):
+                product_details = get_product_details(product_name, products_data)
+                return [f"The requested {product_name} is available for {product_details['price']}",
+                    {"title": product_details['title'], "itemImg": product_details['itemImg'], "price": product_details['price']}]
+                
+            else:
+                return [f"Sorry, {product_name} is not found in our inventory."]
+        return ["I'm sorry, I couldn't understand which product you're looking for. Start again"]
 
-    elif intent == 'orderProduct':
+    elif intent == 'addToCart':
         # Extracting product_name from the provided entities
-        product_name_list = entities.get('product_name:product_name', [])
-        if product_name_list:
-            product_name = product_name_list[0].get('value', None)
-            if product_name:
-                if check_availability(product_name, products_data):
-                    product_details = get_product_details(product_name, products_data)
-                    response_str = f"Order placed for {product_name.capitalize()}. Details: Title: {product_details['title'].capitalize()}, Price: {product_details['price']}"
-                    return [response_str, {"title": product_details['title'], "itemImg": product_details['itemImg'], "price": product_details['price']}]
-                else:
-                    return [f"Sorry, {product_name.capitalize()} is not found in our inventory.",'']
-            return ["I'm sorry, I couldn't understand which product you want to order.",'']
+        product_name = entities['productName:productName'][0]['value']
+       
+        if product_name:
+            if check_availability(product_name, products_data):
+                product_details = get_product_details(product_name, products_data)
+                response_str = f"Order placed for {product_name.capitalize()}. Details: Title: {product_details['title'].capitalize()}, Price: {product_details['price']}"
+                return [response_str, {"title": product_details['title'], "itemImg": product_details['itemImg'], "price": product_details['price']}]
+            else:
+                return [f"Sorry, {product_name.capitalize()} is not found in our inventory.",'']
+        return ["I'm sorry, I couldn't understand which product you want to order.",'']
 
-    elif intent == 'productSpecifications':
+    elif intent == 'productDetails':
+
         # Extracting product_name from the provided entities
-        product_name_list = entities.get('product_name:product_name', [])
-        if product_name_list:
-            product_name = product_name_list[0].get('value', None)
-            if product_name:
-                if check_availability(product_name, products_data):
-                    product_details = get_product_details(product_name, products_data)
-                    specifications = ', '.join(product_details['specifications'])
-                    return [f"Specifications for {product_name}: {specifications}", {"title": product_details['title'], "itemImg": product_details['itemImg'], "price": product_details['price']}]
-                else:
-                    return [f"Sorry, {product_name} is not found in our inventory.",'']
-            return ["I'm sorry, I couldn't understand which product's specifications you want.",'']
+        product_name = entities['productName:productName'][0]['value']
 
+        if product_name:
+            if check_availability(product_name, products_data):
+                product_details = get_product_details(product_name, products_data)
+                specifications = ', '.join(product_details['specifications'])
+                return [f"Specifications for {product_name}: {specifications}", {"title": product_details['title'], "itemImg": product_details['itemImg'], "price": product_details['price']}]
+            else:
+                return [f"Sorry, {product_name} is not found in our inventory.",'']
+        return ["I'm sorry, I couldn't understand which product's specifications you want.",'']
+    elif intent == 'page':
+        product_name = entities['page:page'][0]['value']
+        if product_name =="home page":
+            return "/home"
+        elif product_name == 'cart':
+            return "/checkout"
+    elif intent == "browseProducts":
+        product_name = entities['categoryName:categoryName'][0]['value']
+        return [product_name]
     else:
         return ["I'm sorry, I didn't understand your request. Can you please provide more details?",'']
 

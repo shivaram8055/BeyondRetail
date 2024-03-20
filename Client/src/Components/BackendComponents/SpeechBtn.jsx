@@ -3,14 +3,15 @@ import KeyboardVoiceOutlinedIcon from "@mui/icons-material/KeyboardVoiceOutlined
 import Lottie from "lottie-react";
 import SpeechAnimation from "../../assets/Animation/SpeechAnimation.json";
 import { useDispatch } from "react-redux";
+import { addToCart } from "../../Redux/CartSlice";
 
-const SpeechBtn = () => {
+const SpeechBtn = ({ redirectToCheckout, redirectToProducts }) => {
   const [isAnimationVisible, setIsAnimationVisible] = useState(false);
-
   const [popMessage, setPopupMessage] = useState(
     "Click to activate Voice Assistant"
   );
   const dispatch = useDispatch();
+
   const processVoice = async () => {
     try {
       const responseFromSpeechReco = await fetch(
@@ -19,16 +20,19 @@ const SpeechBtn = () => {
           method: "POST",
         }
       );
+
       if (responseFromSpeechReco.ok) {
         const data = await responseFromSpeechReco.json();
+        console.log(data);
         setPopupMessage(data["response_text"]);
-        if (data["intent"] === "orderProduct") {
+        if (data["intent"] === "addToCart") {
           const productDetails = data["response_text"][1];
           const title = productDetails["title"];
           const price = productDetails["price"];
           const itemImg = productDetails["itemImg"];
           console.log(title, price);
           dispatch(addToCart({ title, price, itemImg }));
+          redirectToCheckout(); // Redirect to checkout page
         }
       } else {
         console.error(
@@ -40,10 +44,11 @@ const SpeechBtn = () => {
       console.error("Error in Speech Recognition");
     }
   };
+
   const handleClickButton = async () => {
     if (!isAnimationVisible) {
       setIsAnimationVisible(true);
-      setPopupMessage("Iam Listening");
+      setPopupMessage("I am Listening");
       await processVoice();
     } else {
       setIsAnimationVisible(false);

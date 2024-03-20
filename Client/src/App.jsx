@@ -22,9 +22,9 @@ const App = () => {
       <Provider store={Store}>
         <Router>
           <NavBar />
-          <SpeechBtn />
-
+          {/* <SpeechBtn /> */}
           <Routes>
+            <Route path="/" element={<SpeechBtn />} />
             <Route path="/" element={<HomePage />} />
             <Route path="/home" element={<HomePage />} />
             <Route path="contact" element={<ContactPage />} />
@@ -32,7 +32,6 @@ const App = () => {
             <Route path="/signin" element={<SignUpPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/checkout" element={<CheckOut />} />
-            <Route path="/speech" element={<SpeechBtn />} />
           </Routes>
           <Footer />
         </Router>
