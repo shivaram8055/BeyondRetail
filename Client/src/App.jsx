@@ -29,7 +29,6 @@ const App = () => {
             <NavBar />
             <SpeechBtn />
             <Routes>
-              <Route path="/" element={<SpeechBtn />} />
               <Route path="/" element={<HomePage />} />
               <Route path="/home" element={<HomePage />} />
               <Route path="contact" element={<ContactPage />} />

@@ -52,9 +52,13 @@ const SpeechBtn = () => {
           "Error in Speech Recognition:",
           responseFromSpeechReco.statusText
         );
+        setPopupMessage("Error in Speech Recognition");
+        setIsAnimationVisible(false);
       }
     } catch (error) {
       console.error("Error in Speech Recognition");
+      setPopupMessage("Error in Speech Recognition");
+      setIsAnimationVisible(false);
     }
   };
 
@@ -76,11 +80,11 @@ const SpeechBtn = () => {
 
   return (
     <div>
-      <div className="fixed popup bg-teal-200 w-fit right-28 bottom-10 p-3 rounded-md max-w-sm">
+      <div className="fixed popup bg-teal-200 w-fit bottom-5 right-20 md:right-28 md:bottom-10 p-3 rounded-md max-w-sm shadow-lg">
         {popMessage.toString()} {/* Ensure popMessage is a string */}
       </div>
       <div
-        className="fixed bottom-10 right-14 z-10 flex items-center justify-center bg-teal-400 border-2 rounded-full w-12 h-12 cursor-pointer shadow-lg "
+        className="fixed bottom-5 right-5 md:bottom-10 md:right-14 z-10 flex items-center justify-center bg-teal-400 border rounded-full w-12 h-12 cursor-pointer shadow-lg "
         onClick={handleClickButton}
       >
         {isAnimationVisible ? (

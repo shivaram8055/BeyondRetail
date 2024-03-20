@@ -3,11 +3,14 @@ from wit import Wit
 from SpeechRecognition import speech_to_text, text_to_speech
 from flask_cors import CORS
 from Response import response_data
+from dotenv import load_dotenv
+import os
 
+load_dotenv()
 app = Flask(__name__)
 CORS(app)  # Enable CORS for all routes
 
-wit_client = Wit("DHQVL5DPGYDSWD72KRTHFAS7GOWUSTYI")
+wit_client = Wit(os.getenv("WIT_AI_ACCESS_TOKEN"))
 
 @app.route('/process_voice', methods=['POST'])
 def process_voice():
