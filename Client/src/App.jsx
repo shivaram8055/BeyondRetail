@@ -12,29 +12,33 @@ import AboutPage from "./Pages/AboutPage";
 import Footer from "./Components/footer/Footer";
 
 import { Provider } from "react-redux";
-import Store from "./Redux/Store";
+import { Store, persistor } from "./Redux/Store";
 import CheckOut from "./Pages/Checkout";
 import SpeechBtn from "./Components/BackendComponents/SpeechBtn";
+
+import { PersistGate } from "redux-persist/integration/react";
 
 const App = () => {
   return (
     <>
       <Provider store={Store}>
-        <Router>
-          <NavBar />
-          {/* <SpeechBtn /> */}
-          <Routes>
-            <Route path="/" element={<SpeechBtn />} />
-            <Route path="/" element={<HomePage />} />
-            <Route path="/home" element={<HomePage />} />
-            <Route path="contact" element={<ContactPage />} />
-            <Route path="products" element={<ProductPage />} />
-            <Route path="/signin" element={<SignUpPage />} />
-            <Route path="/about" element={<AboutPage />} />
-            <Route path="/checkout" element={<CheckOut />} />
-          </Routes>
-          <Footer />
-        </Router>
+        <PersistGate loading={null} persistor={persistor}>
+          <Router>
+            <NavBar />
+            <SpeechBtn />
+            <Routes>
+              <Route path="/" element={<SpeechBtn />} />
+              <Route path="/" element={<HomePage />} />
+              <Route path="/home" element={<HomePage />} />
+              <Route path="contact" element={<ContactPage />} />
+              <Route path="products" element={<ProductPage />} />
+              <Route path="/signin" element={<SignUpPage />} />
+              <Route path="/about" element={<AboutPage />} />
+              <Route path="/checkout" element={<CheckOut />} />
+            </Routes>
+            <Footer />
+          </Router>
+        </PersistGate>
       </Provider>
 
       {/* <div className="min-h-screen w-screen flex justify-center items-center">

@@ -5,12 +5,18 @@ import SpeechAnimation from "../../assets/Animation/SpeechAnimation.json";
 import { useDispatch } from "react-redux";
 import { addToCart } from "../../Redux/CartSlice";
 
-const SpeechBtn = ({ redirectToCheckout, redirectToProducts }) => {
+const SpeechBtn = () => {
   const [isAnimationVisible, setIsAnimationVisible] = useState(false);
   const [popMessage, setPopupMessage] = useState(
     "Click to activate Voice Assistant"
   );
   const dispatch = useDispatch();
+
+  const redirectToExternalPage = (url) => {
+    window.location.href = `http://localhost:5173${url}`;
+  };
+
+  // Usage
 
   const processVoice = async () => {
     try {
@@ -32,7 +38,14 @@ const SpeechBtn = ({ redirectToCheckout, redirectToProducts }) => {
           const itemImg = productDetails["itemImg"];
           console.log(title, price);
           dispatch(addToCart({ title, price, itemImg }));
-          redirectToCheckout(); // Redirect to checkout page
+          redirectToExternalPage("/checkout");
+        } else if (data["intent"] === "page") {
+          const pageName = data["response_text"];
+          console.log("page-name", pageName);
+          redirectToExternalPage(pageName);
+        } else if (data["intent"] === "browseProducts") {
+          const category = data["response_text"];
+          redirectToExternalPage("/products");
         }
       } else {
         console.error(
@@ -50,6 +63,11 @@ const SpeechBtn = ({ redirectToCheckout, redirectToProducts }) => {
       setIsAnimationVisible(true);
       setPopupMessage("I am Listening");
       await processVoice();
+
+      setTimeout(() => {
+        setIsAnimationVisible(false);
+        setPopupMessage("Click to activate Voice Assistant");
+      }, 10000);
     } else {
       setIsAnimationVisible(false);
       setPopupMessage("Click to activate Voice Assistant");

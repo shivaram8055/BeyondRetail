@@ -18,7 +18,7 @@ const HomePage = () => {
       <NewArrivals />
       <BestSelling />
       <DeliveryDetails />
-      <SpeechBtn redirectToCheckout={redirectToCheckout} />
+      {/* <SpeechBtn redirectToCheckout={redirectToCheckout} /> */}
     </div>
   );
 };

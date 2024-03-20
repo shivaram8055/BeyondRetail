@@ -29,7 +29,11 @@ def process_voice():
     # Your business logic based on intent and entities
     response_text = response_data(intent, entities)
     print("Response ",response_text)
-    text_to_speech(response_text[0])
+    if isinstance(response_text, list):
+        text_to_speech(response_text[0])
+    else:
+        text_to_speech(response_text)
+
     
 
 
