@@ -45,7 +45,7 @@ const SpeechBtn = () => {
           redirectToExternalPage(pageName);
         } else if (data["intent"] === "browseProducts") {
           const category = data["response_text"];
-          redirectToExternalPage("/products");
+          redirectToExternalPage(`/products/${category}`);
         }
       } else {
         console.error(

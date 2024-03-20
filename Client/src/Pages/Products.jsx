@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Item from "./Item";
+import Item from "../Components/Item";
 import { Link } from "react-router-dom";
 import ChevronRightTwoToneIcon from "@mui/icons-material/ChevronRightTwoTone";
 
