@@ -21,7 +21,8 @@ const SpeechBtn = () => {
   const processVoice = async () => {
     try {
       const responseFromSpeechReco = await fetch(
-        "http://127.0.0.1:5000/process_voice",
+        "http://127.0.0.1:5000/process_voice" ||
+          "https://0wxs0q81-5000.inc1.devtunnels.ms/process_voice",
         {
           method: "POST",
         }
@@ -72,7 +73,7 @@ const SpeechBtn = () => {
       setTimeout(() => {
         setIsAnimationVisible(false);
         setPopupMessage("Click to activate Voice Assistant");
-      }, 10000);
+      }, 5000);
     } else {
       setIsAnimationVisible(false);
       setPopupMessage("Click to activate Voice Assistant");

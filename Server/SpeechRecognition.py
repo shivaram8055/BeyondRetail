@@ -62,4 +62,3 @@ def response_from_data(intent, entities):
     else:
         return "I'm sorry, I didn't understand your request. Can you please provide more details?"
 
-
