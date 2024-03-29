@@ -1,6 +1,6 @@
 # Ecommerce Virtual Assistant(Voice)
 
-E-commerce VirtualAssistant is a specialised virtual-assistant for that is built for an e-commerce website in our case [BeyondRetail](https://www.beyond-retail.vercel.app). The deployed website backend is not deployed yet.
+E-commerce VirtualAssistant is a specialised virtual-assistant for that is built for an e-commerce website in our case [BeyondRetail](www.beyond-retail.vercel.app). The deployed website backend is not deployed yet.
 
 ## What can this virtual assistant do ?
 
