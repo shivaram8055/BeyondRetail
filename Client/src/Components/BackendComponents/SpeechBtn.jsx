@@ -13,8 +13,8 @@ const SpeechBtn = () => {
   const dispatch = useDispatch();
 
   const redirectToExternalPage = (url) => {
-    // window.location.href = `http://localhost:5173${url}`; //when testing
-    window.location.href = `https://beyond-retail.vercel.app${url}`; //deployment
+    window.location.href = `http://localhost:5173${url}`; //when testing
+    // window.location.href = `https://beyond-retail.vercel.app${url}`; //deployment
   };
 
   // Usage
